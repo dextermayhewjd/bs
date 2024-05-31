@@ -1,6 +1,8 @@
 This a readme file and process to go to install and activate the model
 
 # Install MMAction2
+1. prepare the environment
+
 In the  ubuntu terminal you should use these to check the nvcc version and GCC version
 ```ubuntu terminal
 # Check nvcc version`
@@ -26,6 +28,9 @@ Copyright (C) 2019 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is no
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
-# conda env list
-
-conda activate 
+2. follow the instruction on https://mmaction2.readthedocs.io/en/latest/get_started/installation.html to install everything
+then use the command below
+```ubuntu terminal
+conda env list
+conda activate open-mmlab
+``` 
