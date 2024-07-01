@@ -235,3 +235,12 @@ model = dict(type='ResNet', depth=50)
 optimizer = dict(_delete_=True, type='SGD', lr=0.01)
 ```
 这时候，optimizer 这个字典中就只有 type 和 lr 这两个 key，momentum 和 weight_decay 将不再被继承。
+
+# Model
+model is made of three thing
+
+  1. model
+  2. cls head
+  3. data preprocessor
+
+  编写 pipeline的时候需要考虑data preprocessor的输出格式
