@@ -244,3 +244,93 @@ model is made of three thing
   3. data preprocessor
 
   编写 pipeline的时候需要考虑data preprocessor的输出格式
+# Multiclass
+1. 在video_dataset.py 中有关于如何制作数据集和为什么这么做的原因在multiclass的时候  
+D:\mmac\mmaction2\mmaction\datasets  
+eg.     
+```python
+def load_data_list(self) -> List[dict]:
+        """Load annotation file to get video information."""
+        exists(self.ann_file)
+        data_list = []
+        fin = list_from_file(self.ann_file)
+        for line in fin:
+            line_split = line.strip().split(self.delimiter)
+            if self.multi_class:
+                assert self.num_classes is not None
+# 这里描述了多标签的情况可反推如何定义标签组
+                filename, label = line_split[0], line_split[1:]
+                
+                label = list(map(int, label))
+            # add fake label for inference datalist without label
+            elif len(line_split) == 1:
+                filename, label = line_split[0], -1
+            else:
+                filename, label = line_split
+                label = int(label)
+            if self.data_prefix['video'] is not None:
+                filename = osp.join(self.data_prefix['video'], filename)
+            data_list.append(dict(filename=filename, label=label))
+        return data_list
+```
+2. timesformer没什么要改的 注意 num_class 要好好设置  
+2.1有此处的BCELossWithLogits 输出的是概率数组  
+2.2此处cls_head的in_channels通常与model中的emb_num相同
+```python
+cls_head=dict(
+        type='TimeSformerHead',
+        num_classes=20,
+        in_channels=768,
+        loss_cls= 'BCELossWithLogits',# beacause it is a multiclass classification and the output will be likelyhood or chances
+        average_clips='prob'),# 存疑 在源代码中未看到
+```
+
+3. 找到如何写metric
+
+4. 发现视频和标注 有问题 时间差了半秒 
+ 检察原因 
+ 首先是通过CVAT 可以查看每一帧的信息
+ 通过ffmpeg和pprobe查看帧
+
+最后发现是因为有两个视频流 事变标注使用的是视频流0 而导出视频使用的是视频流1 而视频流1是只有1189帧 因为每秒20帧 符合差了半秒的
+
+5. 需要做的 在视频分割出4秒视频前
+   1. 首先需要检查视频流0和视频流1分别一共有多少帧
+   2. 通过计算得知视频0标注的时间在视频1中是多少时间
+   3. 因为需要统一视频大小以及视频数据集本身的一致性 所以一切开始时间小于视频difference时间的 开始的视频都去除
+
+现在需要做的是 将视频首先 生成 一种格式方便查看 另一种方便机器理解
+
+6.1.1 需要json file 以及video file 用于 算法  
+6.1.2 需要 output file 用于存放视频文件  
+6.1.3 需要 了解dataset在哪 
+
+1.首先 paser需要 获得json file的路径
+然后根据 json file 获得视频本身的路径 来生成算法 done
+2. output file 的存放的路径应该怎样才方便检查 搬运和分类呢
+3. dataset 是否需要分开多个 以供分批检查读写呢
+
+/dog_video/Feb/1_31_unknown
+# Data Directory Structure
+
+```plaintext
+dog_video/Feb/2_2_kt (base_dir)
+        │
+        ├── video(video_dir)
+        │   ├── 020500.mp4  # Raw video files
+        │   └── .....       # Additional video files
+        │
+        ├── via
+        │   ├── 0205.json   # Annotations in JSON format
+        │   ├── ....        # Json_file_path
+        │   └── ....        # Additional annotation files
+        │
+        └── output(output_dir)
+            ├──0205
+            │   ├── 20240202kt_020500_start0.0_2 
+            │   ├── .......
+            │   └── # Processed output files
+            ├──.......      # Processed output files time
+            ├──.......
+            └──dataset.txt  # Summary of datasets or additional information
+```
