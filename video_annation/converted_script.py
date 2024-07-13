@@ -334,7 +334,7 @@ def processdata(distributed_dataset_file,centre_dataset_file,check_file,final_se
     action_names = [
     'play', 'lie_down', 'stand', 'walk', 'sit', 'pee_pose', 'pee', 
     'poop_pose', 'poop', 'sniff', 'vigorous', 'jump', 'mixed', 'iwp',
-    'eat', 'lick_self'
+    'eat', 'lick_self','shake','drink'
                     ]
 
     # Open the dataset file in append mode

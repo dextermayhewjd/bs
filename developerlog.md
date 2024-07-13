@@ -333,4 +333,23 @@ dog_video/Feb/2_2_kt (base_dir)
             ├──.......      # Processed output files time
             ├──.......
             └──dataset.txt  # Summary of datasets or additional information
-```
+
+play 0
+lie_down 1
+stand 2
+walk 3
+sit 4
+pee_pose 5
+pee 6
+poop_pose 7
+poop 8
+sniff 9
+vigorous 10
+
+jump 11
+mixed 12
+iwp 13
+eat 14
+lick_self 15
+shake 16
+drink 17 
