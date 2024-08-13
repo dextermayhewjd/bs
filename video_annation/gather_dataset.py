@@ -1,7 +1,7 @@
 import os
 
 # 定义主文件夹路径
-main_folder = r'D:\dog_video\Feb\2_2_kt\checked'
+main_folder = r'D:\dog_video\Feb\2_1_kt\output'
 
 summary_file = os.path.join(main_folder, 'dataset.txt')
 

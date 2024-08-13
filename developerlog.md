@@ -353,3 +353,191 @@ eat 14
 lick_self 15
 shake 16
 drink 17 
+```
+# Preview the pipeline transform
+``` terminal
+python tools/visualizations/browse_dataset.py \
+    # replace the config here to the one you are usuing
+    configs/recognition/tsn/tsn_imagenet-pretrained-r50_8xb32-1x1x3-100e_kinetics400-rgb.py \
+    browse_out --mode pipeline
+
+# For tiny_dog_videos_transformers
+python tools/visualizations/browse_dataset.py \
+    configs/recognition/dog_timesformers/first_dog.py \
+    browse_out --mode pipeline
+```
+
+1.walk
+
+2.stand
+
+3.mixed
+when walk and stand both happen, often means small range of movement
+4.sniff
+use iis nose but not touching or moving the object
+5.play
+touch and move the object
+6.vigorous 
+  1. sudden move
+  2. very exciting ,told by the movement of the tail of the dog
+7. pee pose 
+    1. enter the area of the training pad and stay for longer than one minite and end 1s before moving out from the are of the training pad
+    2. pee pose should be together with stand if you cannot directly see from the camera
+# Powershell execute Anaconda environment and run script
+``` powershell
+PS D:\mmac\bs\video_annation>   
+& C:\Users\d1029\anaconda3\envs\COMS30035_labs\python.exe d:/mmac/  bs/video_annation/generate_train_test_ver_2.py  
+
+# anaconda environment path + name + script to run 
+
+PS D:\mmac\bs> & C:/Users/d1029/anaconda3/envs/video_processing/python.exe D:\mmac\bs\video_annation\converted_script.py D:/dog_video/Feb/2_1_kt/via_with_sensor/0145.json
+```
+
+1. To generate one video  
+The file @converted_script.py is the basic script to generate video
+```terminal
+# example  
+PS D:\mmac\bs> & C:/Users/d1029/anaconda3/envs/video_processing/python.exe D:\mmac\bs\video_annation\converted_script.py D:/dog_video/Feb/2_1_kt/via_with_sensor/1500.json
+```
+2. To generate one folder's videos  
+The file find_all_files_and_process.py  
+with the file `config.json` will run the script using the info defined in the config.json  
+`please define the things in config first !!!!!!`
+
+3. 
+
+
+# sensor data 
+
+[sensor,sensor_front]
+
+# MMACTION2 FRAMEWORK
+
+1. Define the pipeline
+    1. define the transform  
+    in this folder define the transform you are going to use
+        ```terminal
+        D:\mmac\mmaction2\mmaction\datasets\transforms\sensor_transforms.py
+                mmaction\datasets\transforms\sensor_transforms.py
+        ```  
+        Because in the code the data passed in through the dataloader and the pipeline attribute within that, the init part of the transform sequence have to start with reading file and get the path from the `data_prefix` and the attribute name you can defeine in a dictionary
+        ```python
+        data_prefix = '/mnt/d/mmac/mmaction2/data/sensor/'
+        results = dict(sensor_filename=osp.join(data_prefix, 'test_csv.csv'))   
+        ```   
+        By getting the file path and name you can start read the file and pass all the data you needed in the `dictionary` you needed
+
+    ```python
+        from mmcv.transforms import BaseTransform
+        from mmaction.registry import TRANSFORMS
+
+
+        @TRANSFORMS.register_module()
+        class SensorInit(BaseTransform):
+            def transform(self, results: Dict) -> Dict:
+            sensor_file = results['sensor_filename']
+            sensor_data = []
+            
+            # # 打印当前工作目录
+            # current_working_dir = os.getcwd()
+            # print(f"Current working directory: {current_working_dir}")
+            
+            #         # 确认文件路径
+            # if not osp.exists(sensor_file):
+            #     raise FileNotFoundError(f"File not found: {sensor_file}")
+            
+            # # 打印路径以确认
+            # print(f"Attempting to open file: {sensor_file}")
+            
+            # Read sensor data from CSV file
+            with open(sensor_file, 'r') as csvfile:
+                reader = csv.reader(csvfile)
+                for row in reader:
+                    timestamp = datetime.strptime(row[0], '%Y-%m-%d %H:%M:%S.%f')
+                    sensor_values = list(map(float, row[1:]))
+                    sensor_data.append((timestamp, sensor_values))
+            # Determine start time and end time
+            start_time = sensor_data[0][0]  # First timestamp
+            end_time = sensor_data[-1][0]   # Last timestamp
+
+            # Calculate number of samples and time period
+            num_samples = len(sensor_data)
+            actual_time_period = (end_time - start_time).total_seconds()
+            
+            theo_time_period = num_samples/100
+            
+            results['sensor_data'] = sensor_data
+            results['start_time'] = start_time
+            results['end_time'] = end_time
+            results['num_sample'] =num_samples
+            results['actual_time_period'] = actual_time_period
+            results['theo_time_period'] = theo_time_period
+            return results
+    ```
+    2. In here register the transform that you are going to use   
+    By Import it in the file and add it in the `__all__`
+    ```terminal
+    D:\mmac\mmaction2\mmaction\datasets\transforms\__init__.py
+            mmaction\datasets\transforms\__init__.py
+    ```
+    ```python
+    from .sensor_transforms import SensorInit
+
+    __all__ = [
+        .... # other transform
+            'CLIPTokenize', 'SensorInit',
+    ]
+    ```
+    3. To use the transform created by myself have to use 
+    ```python
+    from mmengine.dataset import Compose
+    from mmaction.utils import register_all_modules
+
+    register_all_modules(init_default_scope=True)
+    ```
+
+    4. Full test code
+    ```python
+    import os.path as osp
+    from mmengine.dataset import Compose
+    from mmaction.utils import register_all_modules
+
+    register_all_modules(init_default_scope=True)
+
+    pipeline_cfg = [
+        dict(type='SensorInit'),
+    ]
+    pipeline = Compose(pipeline_cfg)
+
+    data_prefix = '/mnt/d/mmac/mmaction2/data/sensor/'
+    results = dict(sensor_filename=osp.join(data_prefix, 'test_csv.csv'))
+    # 指定传入的文件路径
+    # sensor_filename = '/mnt/d/mmac/mmaction2/data/sensor/test_csv.csv'
+    # print(f"Using sensor file: {sensor_filename}")
+
+    # results = dict(sensor_filename = sensor_filename)
+
+    # 打印文件路径以确认
+
+    packed_results = pipeline(results)
+
+    start_time = packed_results['start_time']
+    num_sample = packed_results['num_sample']
+    theo_time_period = packed_results['theo_time_period']
+    # Get metainfo of the inputs
+    print('start_time: ', start_time)
+    print('num_sample: ', num_sample)
+    print('theo_time_period: ', theo_time_period)
+
+    '''
+    这里显示了如何使用pipeline
+    首先定义 和引入 在_init_
+    然后传入一个字典给pipeline
+    字典中包含文件信息 
+    pipeline 解析数据
+    然后读取存放在字典中
+
+    '''
+    ```
+2. Build a DataLoader  
+    All Dataset classes in OpenMMLab must inherit from the `BaseDataset` class in mmengine. We can customize `annotation loading process` by overriding the `load_data_list` method. Additionally, we can `add more information to the results dict` that is passed as input to the pipeline by overriding the `get_data_info method`

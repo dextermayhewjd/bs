@@ -27,4 +27,6 @@ def main():
         subprocess.run(['python', script_path, json_file], check=True)
 
 if __name__ == "__main__":
+    import os
+    print("当前工作目录:", os.getcwd())
     main()

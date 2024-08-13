@@ -1,7 +1,7 @@
 import os
 import shutil
 
-def copy_mp4_files(src_folder, dest_folder):
+def copy_csv_files(src_folder, dest_folder):
     # 确保目标文件夹存在，不存在则创建
     if not os.path.exists(dest_folder):
         os.makedirs(dest_folder)
@@ -13,8 +13,8 @@ def copy_mp4_files(src_folder, dest_folder):
             continue
 
         for file in files:
-            # 找到所有的 .mp4 文件
-            if file.lower().endswith('.mp4'):
+            # 找到所有的 csv 文件
+            if file.lower().endswith('.csv'):
                 src_file_path = os.path.join(subdir, file)
                 dest_file_path = os.path.join(dest_folder, file)
                 
@@ -31,11 +31,11 @@ def copy_mp4_files(src_folder, dest_folder):
                 # 复制文件到目标文件夹
                 shutil.copy2(src_file_path, dest_file_path)
 
-    print(f"所有的 .mp4 文件已复制到文件夹: {dest_folder}")
+    print(f"所有的 .csv 文件已复制到文件夹: {dest_folder}")
 
 # 设置源文件夹和目标文件夹路径
-source_folder = r'D:\dog_video\Feb\2_2_kt\\output'
-destination_folder = r'D:\dog_video\all_video\videos'
+source_folder = r'D:\dog_video\Feb\2_4_dixia\output_sensor'
+destination_folder = r'D:\dog_video\all_sensor\sensor'
 
 # 调用函数复制文件
-copy_mp4_files(source_folder, destination_folder)
+copy_csv_files(source_folder, destination_folder)

@@ -1,9 +1,10 @@
 import json
 import argparse
-
+import numpy as np
+from datetime import datetime, timedelta
 import os
 import subprocess
-
+import pandas as pd
       
 def get_video_path(json_file_path):
     """
@@ -17,7 +18,7 @@ def get_video_path(json_file_path):
         
     eg.
         # example
-        json_file_path = r'D:\小狗视频\2_2_kt\via\0205.json'
+        json_file_path = r'D:\小狗视频\2_1_kt\via_with_sensor\0200.json'
         video_path = get_video_path(json_file_path)
         print(video_path)
     """
@@ -25,8 +26,8 @@ def get_video_path(json_file_path):
     base_path = os.path.dirname(json_file_path)  # D:\小狗视频\2_2_kt\via
     json_filename = os.path.basename(json_file_path)  # 0205.json
     
-    # 修改基础路径中的 'via' 为 'video'
-    video_base_path = base_path.replace('via', 'video')
+    # 修改基础路径中的 'via_with_sensor' 为 'video'
+    video_base_path = base_path.replace('via_with_sensor', 'video')
     
     # 修改文件名: 删除扩展名，添加 '00', 更换扩展名为 '.mp4'
     video_filename = json_filename[:-5] + '00.mp4'  # 假设json文件名长度固定，或确保.json前面有足够字符
@@ -163,6 +164,63 @@ def get_all_video_info(video_path):
         video_info.append((duration, total_frames, frame_rate))
     
     return video_info
+
+
+def list_all_streams(video_path):
+    # 使用 ffprobe 获取所有流的信息
+    command = [
+        'ffprobe',
+        '-v', 'error',
+        '-show_entries', 'stream=index,codec_type',
+        '-of', 'json',
+        video_path
+    ]
+    
+    result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    if result.returncode != 0:
+        raise Exception(f"Error running ffprobe: {result.stderr}")
+    
+    # 解析 JSON 输出，获取所有流信息
+    info = json.loads(result.stdout)
+    return info['streams']
+
+def detect_camera_type(video_path):
+    # 列出所有流的信息
+    streams = list_all_streams(video_path)
+    video_stream_indices = [stream['index'] for stream in streams if stream['codec_type'] == 'video']
+    audio_stream_indices = [stream['index'] for stream in streams if stream['codec_type'] == 'audio']
+    
+    # 判断摄像头类型
+    if len(video_stream_indices) == 2 and video_stream_indices == [0, 1]:
+        return "Type 1 Camera"
+    elif len(video_stream_indices) == 2 and len(audio_stream_indices) == 1 and video_stream_indices == [0, 2]:
+        return "Type 2 Camera"
+    else:
+        return "Unknown Camera Type"
+
+def get_stream_0_duration(video_path):
+    # 使用 ffprobe 获取索引为0的视频流的详细信息
+    command = [
+        'ffprobe',
+        '-v', 'error',
+        '-select_streams', 'v:0',
+        '-show_entries', 'stream=duration',
+        '-of', 'json',
+        video_path
+    ]
+    
+    result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    if result.returncode != 0:
+        raise Exception(f"Error running ffprobe: {result.stderr}")
+    
+    # 解析 JSON 输出，获取视频流的持续时间
+    info = json.loads(result.stdout)
+    # print("Stream 0 detailed information:", json.dumps(info, indent=4))  # 添加调试信息，打印详细信息
+    if 'streams' in info and len(info['streams']) > 0 and 'duration' in info['streams'][0]:
+        return float(info['streams'][0]['duration'])
+    return None
+
+
 
 def adjust_time(time_segments, video_info):
     if len(video_info) < 2:
@@ -351,8 +409,8 @@ def processdata(distributed_dataset_file,centre_dataset_file,check_file,final_se
             output_path = os.path.join(output_dir,json_file_name,output_filename)
             
             # Write the directory name, filename and labels to the dataset file
-            distributed_f.write(f"{output_filename} {labels}\n")
-            centre_f.write(f"{output_filename} {labels}\n")
+            distributed_f.write(f"{output_filename} {labels.replace(',', ' ')}\n")
+            centre_f.write(f"{output_filename} {labels.replace(',', ' ')}\n")
             
             # 获取动作名称
             action_labels = [label for label in segment['labels'] if label in action_names]
@@ -382,6 +440,247 @@ def processdata(distributed_dataset_file,centre_dataset_file,check_file,final_se
                 print(f"Processed segment {base_dir_name} {json_file_name} starting at {start_time} successfully.")
 
 
+def extract_and_sort_sensor_times(actions):
+    # 提取sensor和sensor_front的时间
+    sensor_times = []
+    for action in actions:
+        if 'sensor' in action['labels']:
+            sensor_times.append(action['start'])
+            sensor_times.append(action['end'])
+        if 'sensor_front' in action['labels']:
+            sensor_times.append(action['start'])
+
+    # 按时间从小到大排序
+    sensor_times.sort()
+    return sensor_times
+
+
+
+def parse_sensor_time(time_str):
+    dt = datetime.strptime(time_str, "%Y-%m-%d %H:%M:%S.%f")
+    epoch = datetime(2024, 1, 30)
+    return (dt - epoch).total_seconds()
+
+def parse_txt_file(file_path, via_file_name):
+    '''
+    give the file path of the sensor_ana and via file name 
+    it will return the sensor_point_data which include 
+    via_data = {
+        'via': via_file_name,
+        'csv_file': '',
+        'rows': []
+    }
+    '''
+    via_data = {
+        'via': via_file_name,
+        'csv_file': '',
+        'rows': []
+    }
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+        for line in lines:
+            parts = line.split()
+            via_file = parts[0]
+            if via_file == via_file_name:
+                if via_data['csv_file'] == '':
+                    via_data['csv_file'] = parts[1]
+                rows_data = sorted([int(parts[i]) for i in range(2, len(parts))])
+                via_data['rows'].extend(rows_data)
+                via_data['rows'] = sorted(via_data['rows'])
+    
+    return via_data  
+
+def read_specific_row(file_path, row_number):
+    # pandas的行索引是从0开始的，所以row_number需要减去1
+    try:
+        # 跳过row_number-1行，然后读取1行，header=None不使用标题行
+        df = pd.read_csv(file_path, skiprows=row_number-1, nrows=1, header=None)
+        # 将结果转换为字典形式返回
+        return df.iloc[0].to_dict()
+    except Exception as e:
+        return f"Error: {e}"
+
+
+def fromArray2Array(via_file_name, txt_file_path, csv_base_path):
+    via_data = parse_txt_file(txt_file_path, via_file_name)
+    # via_file_name = '0145'
+    #txt_file_path = r'D:\dog_video\Feb\2_1_kt\sensor_ana.txt'
+#      get data like this
+#     {'via': '0145',
+#      'csv_file': '2_1.csv',
+#      'rows': [4734746, 4735223, 4737455]}
+    rows_csv = via_data['rows']
+    csv_file_path = f"{csv_base_path}\\{via_data['csv_file']}"
+    # print(csv_file_path)
+    sensor_times = []
+    for row_number in rows_csv:
+        row_data = read_specific_row(csv_file_path, row_number)
+        if isinstance(row_data, dict):
+            sensor_time_point = parse_sensor_time(row_data[0])
+            sensor_times.append(sensor_time_point)
+        else:
+            print(row_data)
+    # print(sensor_times)
+    # [179101.043, 179105.789, 179127.989]
+    return sensor_times,csv_file_path
+
+def calculate_average_offset(sensor_times, video_times):
+    # Ensure the input lists are numpy arrays
+    sensor_times = np.array(sensor_times)
+    video_times = np.array(video_times)
+
+    # Calculate the differences between sensor times and video times
+    time_diffs = sensor_times - video_times
+
+    # Calculate the average time difference (offset)
+    average_offset = np.mean(time_diffs)
+
+    # Calculate the sensor time corresponding to video time 0
+    sensor_time_at_video_zero = average_offset
+
+    return average_offset, sensor_time_at_video_zero
+
+def seconds_to_datetime(seconds):
+    epoch = datetime(2024, 1, 30)
+    return epoch + timedelta(seconds=seconds)
+
+def add_seconds_to_timestamp(timestamp, seconds):
+    # 将字符串形式的时间戳转换为datetime对象
+    # timestamp = datetime.strptime(timestamp_str, "%Y-%m-%d %H:%M:%S.%f")
+    
+    # 创建一个timedelta对象表示要添加的秒数
+    time_delta = timedelta(seconds=seconds)
+    
+    # 将timedelta对象添加到datetime对象
+    new_timestamp = timestamp + time_delta
+    
+    # 返回新的时间戳字符串，保持相同的格式
+    return new_timestamp.strftime("%Y-%m-%d %H:%M:%S.%f")
+
+class TimeDataSearcher:
+    def __init__(self):
+        self.current_csv_file = None
+        self.df = None
+
+    def _read_csv(self, csv_file):
+        self.df = pd.read_csv(csv_file, header=None)
+        self.df['time'] = pd.to_datetime(self.df[0], format="%Y-%m-%d %H:%M:%S.%f")
+        self.current_csv_file = csv_file
+
+    def find_closest_time_row(self, csv_file, target_time_str):
+        # 检查是否需要重新读取CSV文件
+        if csv_file != self.current_csv_file:
+            self._read_csv(csv_file)
+
+        # 将目标时间转换为datetime对象
+        target_time = datetime.strptime(target_time_str, "%Y-%m-%d %H:%M:%S.%f")
+
+        # 计算每个时间点与目标时间点之间的绝对差值
+        self.df['time_diff'] = abs(self.df['time'] - target_time)
+
+        # 找到最小差值对应的行索引
+        closest_row_index = self.df['time_diff'].idxmin()
+
+        return closest_row_index
+
+def read_and_save_partial_csv(csv_file, start_row,  output_txt_file,num_rows=400):
+    # 使用skiprows参数跳过前面的行，使用nrows参数限制读取的行数
+    df = pd.read_csv(csv_file, skiprows=range(start_row-1), nrows=num_rows, header=None)
+
+    # 将DataFrame保存为TXT文件
+    df.to_csv(output_txt_file, index=False, header=False, sep='\t')
+
+def process_sensor_data(
+                        distributed_sensor_dataset_file,
+                        centre_sensor_dataset_file,
+                        video_sensor_time,
+                        via_file_name,
+                        txt_file_path,
+                        csv_base_path,
+                        segments,
+                        base_dir_name,
+                        json_file_name,
+                        output_dir,
+                        check_sensor_file
+                        ):
+    '''
+    Args:
+        video_line_sensor_times 
+    '''
+    """
+    根据json的路径以及名称 生成所有对应的传感器数据以及标注文件
+
+    Args:
+        video_line_sensor_times (array): [6.14527, 10.83277, 32.583]
+        
+        
+    """
+    action_names = [
+    'play', 'lie_down', 'stand', 'walk', 'sit', 'pee_pose', 'pee', 
+    'poop_pose', 'poop', 'sniff', 'vigorous', 'jump', 'mixed', 'iwp',
+    'eat', 'lick_self','shake','drink'
+                    ]
+    
+    
+    # video_sensor_time 
+    # eg [6.14527, 10.83277, 32.583]
+    # first align the video line 0 first 
+    # but where is the epoch 
+    sensor_times_to_epoch , csv_file_path = fromArray2Array(via_file_name, txt_file_path, csv_base_path)
+    #[179101.043, 179105.789, 179127.989]
+    average_offset, sensor_time_at_video_zero = calculate_average_offset(sensor_times_to_epoch, video_sensor_time)
+    # print(f"Average Offset: {average_offset}")
+    # print(f"Sensor time at video time 0: {sensor_time_at_video_zero}")
+    # here the actual_time_at_video_zero is datetime object 
+    actual_time_at_video_zero = seconds_to_datetime(sensor_time_at_video_zero)
+    # print(f"Actual time at video time 0: {actual_time_at_video_zero}")
+    searcher = TimeDataSearcher()
+    
+    # 每个segment 的start time + actual_time_at_video_zero = target_time_str
+    # 找到close row then 读取400行
+    with open(distributed_sensor_dataset_file, 'a') as distributed_f, open(centre_sensor_dataset_file, 'a') as centre_f,open(check_sensor_file, 'a') as check_f:
+        for segment in segments:
+            start_time = segment['start']
+            
+            labels = ",".join(str(i) for i, label in enumerate(action_names) if label in segment['labels'])
+            
+            #20240202kt_020500_start0.0_2
+            output_sensor_filename = f"{base_dir_name}_{json_file_name}_start{start_time}_{labels.replace(',', '_')}.csv"
+            
+            output_path = os.path.join(output_dir,json_file_name,output_sensor_filename)
+            
+            # Write the directory name, filename and labels to the dataset file
+            distributed_f.write(f"{output_sensor_filename} {labels.replace(',', ' ')}\n")
+            centre_f.write(f"{output_sensor_filename} {labels.replace(',', ' ')}\n")
+            
+            # 获取动作名称
+            action_labels = [label for label in segment['labels'] if label in action_names]
+            action_names_str = ", ".join(action_labels)
+            
+            # 写入文件名和动作名称到检查文件
+            check_f.write(f"{output_sensor_filename}: {action_names_str}\n")
+            
+            
+            
+            
+            real_life_start_time = add_seconds_to_timestamp(actual_time_at_video_zero, start_time)
+            print(f"Actual time at video time {start_time}: {real_life_start_time}")
+            print(real_life_start_time)
+            closest_row = searcher.find_closest_time_row(csv_file_path, real_life_start_time)
+            print(f"Closest row index for {real_life_start_time}: {closest_row}")
+            read_and_save_partial_csv(csv_file_path,
+                            closest_row, output_path)
+            print(f"Data saved to {output_path}")
+
+def remove_sensor_labels(actions):
+    # 创建一个新的列表来存储不包含sensor和sensor_front的项
+    filtered_actions = []
+    for action in actions:
+        # 如果action的labels中不包含sensor和sensor_front，则添加到filtered_actions中
+        if 'sensor' not in action['labels'] and 'sensor_front' not in action['labels']:
+            filtered_actions.append(action)
+    return filtered_actions
+
 def main():
     # check whether there are enough text to process the main function
     parser = argparse.ArgumentParser(description="处理文件的脚本。")
@@ -408,16 +707,22 @@ def main():
         │   ├── ....        # Json_file_path
         │   └── ....        # Additional annotation files
         │
-        └── output(output_dir)
-            ├──0205
-            │   ├── 20240202kt_020500_start0.0_2 
-            │   ├── .......
-            │   ├── # Processed output files
-            │   ├── # checked file 
-            │   └── (distributed)dataset.txt
-            ├──.......      # Processed output files time
-            ├──.......
-            └──dataset.txt  # Summary of datasets or additional information
+        ├── output(output_dir)
+        │   ├──0205
+        │   │   ├── 20240202kt_020500_start0.0_2 
+        │   │   ├── .......
+        │   │   ├── # Processed output files
+        │   │   ├── # checked file 
+        │   │   └── (distributed)dataset.txt
+        │   ├──.......      # Processed output files time
+        │   ├──.......
+        │   └──dataset.txt  # Summary of datasets or additional information
+        │ 
+        ├── csv file(csv file)
+        │   ├──2-1.csv
+        │   └──2-3.csv
+        │ 
+        └──sensor_ana(keep all the sensor timestamp's row in csv fil)
     '''
     json_file_path = args.js_file_path
     # 获取文件名
@@ -425,35 +730,74 @@ def main():
     
     # 去掉文件扩展名
     json_time_file_name_without_extension = os.path.splitext(json_time_file_name)[0]
-    # print("json_time_file_name_without_extension:",       json_time_file_name_without_extension)# 基于 JSON 文件路径的目录
+    # print("json_time_file_name_without_extension:",
+    # json_time_file_name_without_extension)# 基于 JSON 文件路径的目录
     # print(json_time_file_name_without_extension) # should be 0205 
     base_dir = os.path.dirname(os.path.dirname(json_file_path))  # 获取上级目录的上级目录  
     base_dir_name = os.path.basename(base_dir)
+    sensor_file = os.path.join(base_dir,'sensor_ana.txt')
     # print("base_dir_name:",       base_dir_name)
     
     
     # 自动生成其他路径和名称
     video_dir = os.path.join(base_dir, 'video')
     via_dir = os.path.join(base_dir, 'via')
-    output_dir = os.path.join(base_dir, 'output')    
-    
+    output_dir = os.path.join(base_dir, 'output')
+    output_sensor_dir = os.path.join(base_dir, 'output_sensor')    
+    csv_dir = os.path.join(base_dir,'csv')
+    # for video 
     centre_dataset_file = os.path.join(output_dir, 'dataset.txt')
-    
     distributed_dataset_file = os.path.join(output_dir, json_time_file_name_without_extension,'dataset.txt')
-    
     distributed_output_dir = os.path.join(output_dir, json_time_file_name_without_extension)
-    
     # 创建新的文本文件用于记录文件名和动作名称
     check_file  = os.path.join(distributed_output_dir,"checklist.txt")
+    
+    # for sensor data
+    centre_sensor_dataset_file = os.path.join(output_sensor_dir, 'dataset.txt')
+    distributed_sensor_dataset_file = os.path.join(output_sensor_dir, json_time_file_name_without_extension,'dataset.txt')
+    distributed_output_sensor_dir = os.path.join(output_sensor_dir, json_time_file_name_without_extension)
+    check_sensor_file  = os.path.join(distributed_output_sensor_dir,"checklist.txt")
 
+
+
+    # 确保文件夹存在，如果不存在则创建它
+    if not os.path.exists(distributed_output_sensor_dir):
+        os.makedirs(distributed_output_sensor_dir)
+        print(f"{distributed_output_sensor_dir}                   不存在，已创建")
+    else:
+        print(f"{distributed_output_sensor_dir}                   存在，不创建")
+    # 检查和创建centre_sensor_dataset_file
+    if not os.path.exists(centre_sensor_dataset_file):
+        os.makedirs(os.path.dirname(centre_sensor_dataset_file), exist_ok=True)
+        with open(centre_sensor_dataset_file, 'w') as file:
+            file.write("")  # 创建一个空文件
+        print(f"{centre_sensor_dataset_file}            不存在，已创建")
+    else:
+        print(f"{centre_sensor_dataset_file}            存在，不创建")
+    # 检查和创建distributed_dataset_file
+    if not os.path.exists(distributed_sensor_dataset_file):
+        os.makedirs(os.path.dirname(distributed_sensor_dataset_file), exist_ok=True)
+        with open(distributed_sensor_dataset_file, 'w') as file:
+            file.write("")  # 创建一个空文件
+        print(f"{distributed_sensor_dataset_file}       不存在，已创建")
+    else:
+        print(f"{distributed_sensor_dataset_file}       存在，不创建")
+        
+    if not os.path.exists(check_sensor_file):
+        os.makedirs(os.path.dirname(check_sensor_file), exist_ok=True)
+        with open(check_sensor_file, 'w') as file:
+            file.write("")  # 创建一个空文件
+        print(f"{check_sensor_file}       不存在，已创建")
+    else:
+        print(f"{check_sensor_file}       存在，不创建")
+    
+    
     # 确保文件夹存在，如果不存在则创建它
     if not os.path.exists(distributed_output_dir):
         os.makedirs(distributed_output_dir)
         print(f"{distributed_output_dir}                   不存在，已创建")
     else:
         print(f"{distributed_output_dir}                   存在，不创建")
-
-
     # 检查和创建centre_dataset_file
     if not os.path.exists(centre_dataset_file):
         os.makedirs(os.path.dirname(centre_dataset_file), exist_ok=True)
@@ -462,7 +806,6 @@ def main():
         print(f"{centre_dataset_file}            不存在，已创建")
     else:
         print(f"{centre_dataset_file}            存在，不创建")
-
     # 检查和创建distributed_dataset_file
     if not os.path.exists(distributed_dataset_file):
         os.makedirs(os.path.dirname(distributed_dataset_file), exist_ok=True)
@@ -472,7 +815,6 @@ def main():
     else:
         print(f"{distributed_dataset_file}       存在，不创建")
         
-
     if not os.path.exists(check_file):
         os.makedirs(os.path.dirname(check_file), exist_ok=True)
         with open(check_file, 'w') as file:
@@ -481,58 +823,203 @@ def main():
     else:
         print(f"{check_file}       存在，不创建")
     
+    
+    
+    
     #change D:\小狗视频\2_2_kt\via to D:\小狗视频\2_2_kt\video\020500.mp4
     video_file_path = get_video_path(json_file_path)
     
     # 打印结果以验证
     
-    # print("Base           directory path :  ", base_dir)
-    # print("Video          directory path :  ", video_dir)
-    # print("Via            directory path :  ", via_dir)
-    # print("Output          directory path:  ", output_dir)
-    # print("Distributed     directory path:  ", distributed_output_dir)
-    # print("JSON                 file path:  ", json_file_path)
-    # print("Centre Dataset       file path:  ", centre_dataset_file)
-    # print("Distributed Dataset  file path:  ", distributed_dataset_file)
+    # print("Base                     directory path :  ", base_dir)
+    # print("Video                    directory path :  ", video_dir)
+    # print("Via                      directory path :  ", via_dir)
+    # print("Output                    directory path:  ", output_dir)
+    # print("Output Sensor             directory path:  ", output_sensor_dir)
+    # print("Distributed               directory path:  ", distributed_output_dir)
+    # print("csv                       directory path:  ", csv_dir)
+    # print("JSON                           file path:  ", json_file_path)
+    # print("Centre Dataset                 file path:  ", centre_dataset_file)
+    # print("Distributed Dataset            file path:  ", distributed_dataset_file)
+    # print("check                          file path:  ", check_file)   
+    # print("Centre Sensor Datase           file path:  ", centre_sensor_dataset_file)
+    # print("Distributed  Sensor Dataset    file path:  ", distributed_sensor_dataset_file)
+    # print("sensor_check                   file path:  ", check_sensor_file) 
+    # print("sensor ana                     file path:  ", sensor_file) 
+
     
     # print(json_file_path)
     # print(video_file_path)
     
-    #[0][duration, total_frames, frame_rate]
-    video_info = get_all_video_info(video_file_path)
     
-    actions = parse_actions(json_file_path)
-    #edit time so the start time and end time both subtract the time difference
-    adjusted_time_segments1 = adjust_time(actions,video_info)
+    # detect camera type
+    camera_type = detect_camera_type(video_file_path)
+    if camera_type == "Type 1 Camera":
+        # 执行与 Type 1 Camera 相关的操作
+        print("Executing actions for Type 1 Camera")
+        video_info = get_all_video_info(video_file_path)
+        
+        actions = parse_actions(json_file_path)
+        
+        
+        #edit time so the start time and end time both subtract the time difference
+        adjusted_time_segments0 = adjust_time(actions,video_info)
+        
+        video_line_sensor_times = extract_and_sort_sensor_times(adjusted_time_segments0)
+        # print(video_line_sensor_times)
+        # eg [6.14527, 10.83277, 32.583]
+        adjusted_time_segments1 = remove_sensor_labels(adjusted_time_segments0)
+        # for no_sensor_action in adjusted_time_segments1:
+        #     print(no_sensor_action)
+        # sort the time
+        sorted_actions = sort_time_segments(adjusted_time_segments1)
+        # for sorted_action in sorted_actions: 
+        #     print(sorted_action)
+        video_length = video_info[1][0] # Duration of video stream 2
+        extracted_clips = extract_clips(sorted_actions, video_length,4)
+        
+        updated_clips_with_label = update_clips_labels(extracted_clips,sorted_actions)
+        sorted_updated_clips_with_label = sort_time_segments(updated_clips_with_label)
+        
+        filtered_clips_without_adding_mixed = filter_clips_that_highly_alike(sorted_updated_clips_with_label)
+        # if both walk and stand in the snap
+        filtered_clips = add_mixed_label(filtered_clips_without_adding_mixed)
+        
+        # Assume the frame rate is 30 frames per second
+        frame_rate = 20
+        frame_duration = 1 / frame_rate
+        
+        segments = filtered_clips
+        adjusted_segments = []
+        for segment in segments:
+            adjusted_start = (segment['start'] // frame_duration) * frame_duration
+            adjusted_start = round(adjusted_start, 2)
+            adjusted_segments.append({**segment, 'start': adjusted_start})
+        # pass the test 
+        # for segment in adjusted_segments:
+        #     print(segment)
+            # 确保输出目录存在
+        print(video_line_sensor_times)
     
-    # sort the time
-    sorted_actions = sort_time_segments(adjusted_time_segments1)
     
-    video_length = video_info[1][0] # Duration of video stream 2
-    extracted_clips = extract_clips(sorted_actions, video_length,4)
-    
-    updated_clips_with_label = update_clips_labels(extracted_clips,sorted_actions)
-    sorted_updated_clips_with_label = sort_time_segments(updated_clips_with_label)
-    
-    filtered_clips_without_adding_mixed = filter_clips_that_highly_alike(sorted_updated_clips_with_label)
-    # if both walk and stand in the snap
-    filtered_clips = add_mixed_label(filtered_clips_without_adding_mixed)
-    
-    # Assume the frame rate is 30 frames per second
-    frame_rate = 20
-    frame_duration = 1 / frame_rate
-    
-    segments = filtered_clips
-    adjusted_segments = []
-    for segment in segments:
-        adjusted_start = (segment['start'] // frame_duration) * frame_duration
-        adjusted_start = round(adjusted_start, 2)
-        adjusted_segments.append({**segment, 'start': adjusted_start})
-    # pass the test 
-    # for segment in adjusted_segments:
-    #     print(segment)
-        # 确保输出目录存在
 
+    elif camera_type == "Type 2 Camera":
+        # 执行与 Type 2 Camera 相关的操作
+        print("Executing actions for Type 2 Camera (...)")
+        actions = parse_actions(json_file_path)
+        
+        time_segments0 = actions
+        
+        video_line_sensor_times = extract_and_sort_sensor_times(time_segments0)
+        print(video_line_sensor_times)
+        
+        # eg [6.14527, 10.83277, 32.583]
+    #    #edit time so the start time and end time both subtract the time difference
+    #     adjusted_time_segments0 = adjust_time(actions,video_info)
+        
+    #     video_line_sensor_times = extract_and_sort_sensor_times(adjusted_time_segments0)
+    #     # print(video_line_sensor_times)
+    #     # eg [6.14527, 10.83277, 32.583]
+    
+        time_segments1 = remove_sensor_labels(time_segments0)
+        for no_sensor_action in time_segments1:
+            print(no_sensor_action)
+        # sort the time
+        sorted_actions = sort_time_segments(time_segments1)
+        for sorted_action in sorted_actions: 
+            print(sorted_action)
+        
+        duration = get_stream_0_duration(video_file_path)
+        
+        video_length = duration
+        print(video_length)
+        extracted_clips = extract_clips(sorted_actions, video_length,4)
+        
+        updated_clips_with_label = update_clips_labels(extracted_clips,sorted_actions)
+        sorted_updated_clips_with_label = sort_time_segments(updated_clips_with_label)
+        
+        filtered_clips_without_adding_mixed = filter_clips_that_highly_alike(sorted_updated_clips_with_label)
+        # # if both walk and stand in the snap
+        filtered_clips = add_mixed_label(filtered_clips_without_adding_mixed)
+        
+        # # Assume the frame rate is 30 frames per second
+        frame_rate = 20
+        frame_duration = 1 / frame_rate
+        
+        segments = filtered_clips
+        adjusted_segments = []
+        for segment in segments:
+            adjusted_start = (segment['start'] // frame_duration) * frame_duration
+            adjusted_start = round(adjusted_start, 2)
+            adjusted_segments.append({**segment, 'start': adjusted_start})
+        # # pass the test 
+        # # for segment in adjusted_segments:
+        # #     print(segment)
+        #     # 确保输出目录存在
+        # print(video_line_sensor_times)
+    
+    else:
+        print("Unknown Camera Type. No actions to perform.")
+#     #[0][duration, total_frames, frame_rate]
+    # video_info = get_all_video_info(video_file_path)
+    
+    # actions = parse_actions(json_file_path)
+    
+    
+    # #edit time so the start time and end time both subtract the time difference
+    # adjusted_time_segments0 = adjust_time(actions,video_info)
+    
+    # video_line_sensor_times = extract_and_sort_sensor_times(adjusted_time_segments0)
+    # # print(video_line_sensor_times)
+    # # eg [6.14527, 10.83277, 32.583]
+    # adjusted_time_segments1 = remove_sensor_labels(adjusted_time_segments0)
+    # # for no_sensor_action in adjusted_time_segments1:
+    # #     print(no_sensor_action)
+    # # sort the time
+    # sorted_actions = sort_time_segments(adjusted_time_segments1)
+    # # for sorted_action in sorted_actions: 
+    # #     print(sorted_action)
+    # video_length = video_info[1][0] # Duration of video stream 2
+    # extracted_clips = extract_clips(sorted_actions, video_length,4)
+    
+    # updated_clips_with_label = update_clips_labels(extracted_clips,sorted_actions)
+    # sorted_updated_clips_with_label = sort_time_segments(updated_clips_with_label)
+    
+    # filtered_clips_without_adding_mixed = filter_clips_that_highly_alike(sorted_updated_clips_with_label)
+    # # if both walk and stand in the snap
+    # filtered_clips = add_mixed_label(filtered_clips_without_adding_mixed)
+    
+    # # Assume the frame rate is 30 frames per second
+    # frame_rate = 20
+    # frame_duration = 1 / frame_rate
+    
+    # segments = filtered_clips
+    # adjusted_segments = []
+    # for segment in segments:
+    #     adjusted_start = (segment['start'] // frame_duration) * frame_duration
+    #     adjusted_start = round(adjusted_start, 2)
+    #     adjusted_segments.append({**segment, 'start': adjusted_start})
+    # # pass the test 
+    # # for segment in adjusted_segments:
+    # #     print(segment)
+    #     # 确保输出目录存在
+    # print(video_line_sensor_times)
+    
+    
+
+    
+    # process_sensor_data(distributed_sensor_dataset_file=distributed_sensor_dataset_file,
+    #                     centre_sensor_dataset_file=centre_sensor_dataset_file,
+    #                     video_sensor_time = video_line_sensor_times,
+    #                     via_file_name= json_time_file_name_without_extension,
+    #                     txt_file_path= sensor_file,
+    #                     csv_base_path= csv_dir,
+    #                     segments=adjusted_segments,
+    #                     base_dir_name=base_dir_name,
+    #                     json_file_name=json_time_file_name_without_extension,
+    #                     output_dir=output_sensor_dir,
+    #                     check_sensor_file=check_sensor_file
+    #                     )
     
     processdata(distributed_dataset_file=distributed_dataset_file,
                 centre_dataset_file=centre_dataset_file,
