@@ -1,0 +1,1715 @@
+2-10_sf_1514_start0.8_3_9.csv 3 9
+2-10_sf_1514_start4.8_3_9.csv 3 9
+2-10_sf_1514_start6.8_3_9.csv 3 9
+2-10_sf_1514_start8.8_3_9.csv 3 9
+2-10_sf_1514_start10.8_3_9.csv 3 9
+2-10_sf_1514_start11.6_3_9.csv 3 9
+2-10_sf_1514_start15.6_7.csv 7
+2-10_sf_1514_start19.6_7.csv 7
+2-10_sf_1514_start23.6_7.csv 7
+2-10_sf_1514_start27.6_7.csv 7
+2-10_sf_1514_start29.25_7.csv 7
+2-10_sf_1514_start31.1_3_7_8.csv 3 7 8
+2-10_sf_1514_start33.3_3.csv 3
+2-10_sf_1514_start37.3_3.csv 3
+2-10_sf_1514_start41.8_2.csv 2
+2-10_sf_1514_start45.8_2.csv 2
+2-10_sf_1514_start49.8_2.csv 2
+2-10_sf_1514_start53.8_2.csv 2
+2-10_sf_1514_start55.9_2.csv 2
+2-10_sf_2049_start0.0_3.csv 3
+2-10_sf_2049_start9.85_3.csv 3
+2-10_sf_2049_start13.45_3_9.csv 3 9
+2-10_sf_2049_start15.5_2_3_9_12.csv 2 3 9 12
+2-10_sf_2049_start16.35_2_3_9_12.csv 2 3 9 12
+2-10_sf_2049_start19.0_3_9.csv 3 9
+2-10_sf_2049_start21.4_3_9.csv 3 9
+2-10_sf_2049_start25.5_7_9.csv 7 9
+2-10_sf_2049_start29.5_7_8.csv 7 8
+2-10_sf_2049_start31.85_7_8.csv 7 8
+2-10_sf_2049_start33.5_7_8.csv 7 8
+2-10_sf_2049_start35.85_7_8.csv 7 8
+2-10_sf_2049_start37.5_7_8.csv 7 8
+2-10_sf_2049_start39.85_7_8.csv 7 8
+2-10_sf_2049_start41.5_7_8.csv 7 8
+2-10_sf_2049_start43.85_7_8.csv 7 8
+2-10_sf_2049_start45.5_7_8.csv 7 8
+2-10_sf_2049_start47.85_7_8.csv 7 8
+2-10_sf_2049_start49.5_7_8.csv 7 8
+2-10_sf_2049_start51.85_7_8.csv 7 8
+2-10_sf_2049_start53.5_7_8.csv 7 8
+2-10_sf_2049_start55.85_7_8.csv 7 8
+2-10_sf_2050_start0.0_7_8.csv 7 8
+2-10_sf_2050_start3.95_7_8.csv 7 8
+2-10_sf_2050_start7.95_7_8.csv 7 8
+2-10_sf_2050_start11.95_7_8.csv 7 8
+2-10_sf_2050_start15.95_7_8.csv 7 8
+2-10_sf_2050_start19.95_7_8.csv 7 8
+2-10_sf_2050_start24.55_3.csv 3
+2-10_sf_2050_start25.5_3.csv 3
+2-10_sf_2050_start29.5_2.csv 2
+2-10_sf_2050_start32.1_2_9.csv 2 9
+2-10_sf_2050_start33.15_2_3_9_12.csv 2 3 9 12
+2-10_sf_2050_start36.1_3_9.csv 3 9
+2-10_sf_2050_start40.05_2.csv 2
+2-10_sf_2050_start42.8_2_15.csv 2 15
+2-10_sf_2050_start44.25_2_3_12_15.csv 2 3 12 15
+2-10_sf_2050_start46.8_3.csv 3
+2-10_sf_2050_start49.35_1_2_3_12.csv 1 2 3 12
+2-10_sf_2050_start51.85_1.csv 1
+2-10_sf_2050_start55.85_1.csv 1
+2-13_sf_1650_start17.5_3_9.csv 3 9
+2-13_sf_1650_start21.05_3_9.csv 3 9
+2-13_sf_1650_start25.35_5_6.csv 5 6
+2-13_sf_1650_start27.15_5_6.csv 5 6
+2-13_sf_1650_start28.0_5_6.csv 5 6
+2-13_sf_1650_start30.6_2_3_5_6_12_15.csv 2 3 5 6 12 15
+2-13_sf_1650_start33.05_2_15.csv 2 15
+2-13_sf_1650_start37.05_2_15.csv 2 15
+2-13_sf_1650_start38.35_2_15.csv 2 15
+2-13_sf_1650_start42.0_2_3_12.csv 2 3 12
+2-13_sf_1650_start44.45_2_3_12.csv 2 3 12
+2-13_sf_1650_start47.3_3.csv 3
+2-13_sf_1650_start50.5_3.csv 3
+2-13_sf_2245_start0.0_7_8.csv 7 8
+2-13_sf_2245_start1.2_7_8.csv 7 8
+2-13_sf_2245_start5.2_3.csv 3
+2-13_sf_2245_start6.15_3.csv 3
+2-13_sf_2245_start10.25_2.csv 2
+2-13_sf_2245_start14.25_2.csv 2
+2-13_sf_2245_start18.25_2.csv 2
+2-13_sf_2245_start22.25_2.csv 2
+2-13_sf_2245_start24.25_2.csv 2
+2-13_sf_2245_start27.5_2_3_12.csv 2 3 12
+2-13_sf_2245_start30.75_2.csv 2
+2-13_sf_2245_start34.75_2.csv 2
+2-13_sf_2245_start38.75_2.csv 2
+2-13_sf_2245_start42.4_2_3_12.csv 2 3 12
+2-14_sf_0819_start16.7_3_9.csv 3 9
+2-14_sf_0819_start19.0_3_9.csv 3 9
+2-14_sf_0819_start21.9_2_3_7_9_12.csv 2 3 7 9 12
+2-14_sf_0819_start24.9_7.csv 7
+2-14_sf_0819_start28.9_7.csv 7
+2-14_sf_0819_start32.9_7_8.csv 7 8
+2-14_sf_0819_start36.9_7_8.csv 7 8
+2-14_sf_0819_start40.3_7_8.csv 7 8
+2-14_sf_0819_start44.4_3.csv 3
+2-14_sf_0819_start48.4_3.csv 3
+2-14_sf_2153_start0.0_2_3_9_12.csv 2 3 9 12
+2-14_sf_2153_start2.7_2.csv 2
+2-14_sf_2153_start6.7_2.csv 2
+2-14_sf_2153_start9.6_2_3_12.csv 2 3 12
+2-14_sf_2153_start10.85_2_3_12.csv 2 3 12
+2-14_sf_2153_start13.6_3_9.csv 3 9
+2-14_sf_2153_start14.75_2_3_9_12.csv 2 3 9 12
+2-14_sf_2153_start16.5_2_3_9_12.csv 2 3 9 12
+2-14_sf_2153_start18.15_2_3_7_9_12.csv 2 3 7 9 12
+2-14_sf_2153_start21.4_7.csv 7
+2-14_sf_2153_start25.4_7.csv 7
+2-14_sf_2153_start27.05_7_8.csv 7 8
+2-14_sf_2153_start28.3_3_7_8.csv 3 7 8
+2-14_sf_2153_start31.2_3.csv 3
+2-14_sf_2153_start32.85_3.csv 3
+2-14_sf_2153_start35.6_2_3_12.csv 2 3 12
+2-14_sf_2153_start38.35_3.csv 3
+2-14_sf_2153_start42.6_2.csv 2
+2-14_sf_2153_start45.05_2.csv 2
+2-14_sf_2153_start48.45_2_3_12.csv 2 3 12
+2-14_sf_2153_start51.7_2.csv 2
+2-14_sf_2153_start55.7_2.csv 2
+2-3_sf_0017_start36.0_3.csv 3
+2-3_sf_0017_start38.4_3.csv 3
+2-3_sf_0017_start42.4_5_6.csv 5 6
+2-3_sf_0017_start43.8_5_6.csv 5 6
+2-3_sf_0017_start48.05_3.csv 3
+2-3_sf_0017_start52.05_3.csv 3
+2-3_sf_0017_start53.3_3.csv 3
+2-3_sf_0412_start0.0_2.csv 2
+2-3_sf_0412_start3.65_2.csv 2
+2-3_sf_0412_start7.65_3.csv 3
+2-3_sf_0412_start12.05_2_9.csv 2 9
+2-3_sf_0412_start15.4_2_9.csv 2 9
+2-3_sf_0412_start19.4_3.csv 3
+2-3_sf_0412_start20.4_3.csv 3
+2-3_sf_0412_start33.75_3.csv 3
+2-3_sf_0412_start37.75_3.csv 3
+2-3_sf_0412_start42.5_5_6.csv 5 6
+2-3_sf_0412_start43.9_5_6.csv 5 6
+2-3_sf_0412_start46.5_5_6.csv 5 6
+2-3_sf_0412_start47.9_5_6.csv 5 6
+2-3_sf_0412_start49.0_5_6.csv 5 6
+2-3_sf_0412_start51.95_2_3_5_6_12.csv 2 3 5 6 12
+2-3_sf_0412_start54.25_2_3_12.csv 2 3 12
+2-3_sf_0412_start55.95_2_3_12.csv 2 3 12
+2-3_sf_1217_start13.4_3_9.csv 3 9
+2-3_sf_1217_start15.05_2_3_9_12.csv 2 3 9 12
+2-3_sf_1217_start18.25_2_6.csv 2 6
+2-3_sf_1217_start22.25_2_6.csv 2 6
+2-3_sf_1217_start23.6_2_6.csv 2 6
+2-3_sf_1217_start27.3_2_3_12.csv 2 3 12
+2-3_sf_1217_start30.65_2_15.csv 2 15
+2-3_sf_1217_start34.7_2_3_12.csv 2 3 12
+2-3_sf_1217_start37.5_2_3_12.csv 2 3 12
+2-3_sf_1217_start38.85_2_3_12.csv 2 3 12
+2-3_sf_1217_start40.45_2_3_12.csv 2 3 12
+2-3_sf_1217_start43.7_3.csv 3
+2-3_sf_1217_start46.1_3.csv 3
+2-3_sf_1512_start0.0_2_3_12.csv 2 3 12
+2-3_sf_1512_start2.8_3.csv 3
+2-3_sf_1512_start6.8_3_9.csv 3 9
+2-3_sf_1512_start8.75_3_9.csv 3 9
+2-3_sf_1512_start10.8_3_9.csv 3 9
+2-3_sf_1512_start12.75_3_9.csv 3 9
+2-3_sf_1512_start14.8_3_9.csv 3 9
+2-3_sf_1512_start16.75_3_9.csv 3 9
+2-3_sf_1512_start18.65_3_9.csv 3 9
+2-3_sf_1512_start22.8_3.csv 3
+2-3_sf_1512_start26.8_3.csv 3
+2-3_sf_1512_start27.85_3.csv 3
+2-3_sf_1512_start30.0_2_3_9_12.csv 2 3 9 12
+2-3_sf_1512_start33.65_3_9.csv 3 9
+2-3_sf_1512_start34.5_3_9.csv 3 9
+2-3_sf_1512_start38.5_5_6.csv 5 6
+2-3_sf_1512_start42.3_2_3_5_12.csv 2 3 5 12
+2-3_sf_1512_start45.0_2_3_12.csv 2 3 12
+2-3_sf_1512_start48.25_3.csv 3
+2-3_sf_1512_start51.0_3_9.csv 3 9
+2-3_sf_1512_start52.45_2_3_9_12.csv 2 3 9 12
+2-3_sf_1512_start53.35_2_3_9_12.csv 2 3 9 12
+2-3_sf_1512_start54.2_2_3_9_12.csv 2 3 9 12
+2-3_sf_1512_start55.95_2_3_9_12.csv 2 3 9 12
+2-3_sf_1513_start0.0_3_7.csv 3 7
+2-3_sf_1513_start1.25_7.csv 7
+2-3_sf_1513_start3.05_7.csv 7
+2-3_sf_1513_start7.05_3.csv 3
+2-3_sf_1513_start9.55_3.csv 3
+2-3_sf_1513_start13.55_2.csv 2
+2-3_sf_1513_start14.8_2.csv 2
+2-3_sf_1513_start17.85_2_3_9_12.csv 2 3 9 12
+2-3_sf_1513_start20.3_2_3_9_12.csv 2 3 9 12
+2-3_sf_1513_start21.1_2_9.csv 2 9
+2-3_sf_1513_start25.0_2.csv 2
+2-3_sf_1513_start28.0_2_3_7_12.csv 2 3 7 12
+2-3_sf_1513_start31.0_7_8.csv 7 8
+2-3_sf_1513_start32.25_7_8.csv 7 8
+2-3_sf_1513_start33.25_3_7_8.csv 3 7 8
+2-3_sf_1513_start35.85_2_3_7_12.csv 2 3 7 12
+2-3_sf_1513_start39.5_2.csv 2
+2-3_sf_1513_start43.5_2.csv 2
+2-3_sf_1513_start47.5_2.csv 2
+2-3_sf_1513_start51.6_3.csv 3
+2-3_sf_1513_start55.6_3.csv 3
+2-3_sf_1931_start6.2_3.csv 3
+2-3_sf_1931_start10.4_5_6.csv 5 6
+2-3_sf_1931_start11.55_5_6.csv 5 6
+2-3_sf_1931_start15.95_3_9.csv 3 9
+2-3_sf_1931_start17.5_2_3_9_12.csv 2 3 9 12
+2-3_sf_1931_start20.3_2_3_9_12.csv 2 3 9 12
+2-3_sf_1931_start23.95_3.csv 3
+2-3_sf_1931_start25.5_3.csv 3
+2-3_sf_1931_start29.5_2.csv 2
+2-3_sf_1931_start33.35_2.csv 2
+2-3_sf_1931_start37.35_3.csv 3
+2-3_sf_1931_start40.25_3.csv 3
+2-3_sf_1931_start43.0_2_3_9_12.csv 2 3 9 12
+2-3_sf_1931_start46.15_3.csv 3
+2-3_sf_1931_start50.5_2_9.csv 2 9
+2-3_sf_1931_start54.0_2.csv 2
+2-3_sf_1931_start55.95_2_3_9_12.csv 2 3 9 12
+2-3_sf_1932_start0.0_2_3_9_12.csv 2 3 9 12
+2-3_sf_1932_start2.35_2_3_9_12.csv 2 3 9 12
+2-3_sf_1932_start3.95_2_3_9_12.csv 2 3 9 12
+2-3_sf_1932_start5.2_2_3_9_12.csv 2 3 9 12
+2-3_sf_1932_start7.95_2_3_9_12.csv 2 3 9 12
+2-3_sf_1932_start8.85_2_9.csv 2 9
+2-3_sf_1932_start11.95_2_9.csv 2 9
+2-3_sf_1932_start12.85_2_9.csv 2 9
+2-3_sf_1932_start14.05_2_9.csv 2 9
+2-3_sf_1932_start15.95_2_3_9_12.csv 2 3 9 12
+2-3_sf_1932_start18.0_3_9.csv 3 9
+2-3_sf_1932_start19.95_3_9.csv 3 9
+2-3_sf_1932_start22.5_3_7_9.csv 3 7 9
+2-3_sf_1932_start24.75_7_9.csv 7 9
+2-3_sf_1932_start28.75_7_8.csv 7 8
+2-3_sf_1932_start29.65_7_8.csv 7 8
+2-3_sf_1932_start30.6_3_7_8.csv 3 7 8
+2-3_sf_1932_start33.75_3.csv 3
+2-3_sf_1932_start34.85_3.csv 3
+2-3_sf_1932_start38.3_2_3_12.csv 2 3 12
+2-3_sf_1932_start40.05_2_3_12.csv 2 3 12
+2-3_sf_2043_start0.0_3.csv 3
+2-3_sf_2043_start2.55_3_9.csv 3 9
+2-3_sf_2043_start3.95_2_3_6_9_12.csv 2 3 6 9 12
+2-3_sf_2043_start6.3_2_6.csv 2 6
+2-3_sf_2043_start10.1_3.csv 3
+2-3_sf_2043_start11.0_3.csv 3
+2-3_sf_2043_start13.95_2_3_9_12.csv 2 3 9 12
+2-3_sf_2043_start17.35_3.csv 3
+2-3_sf_2043_start21.35_3.csv 3
+2-3_sf_2043_start45.25_3.csv 3
+2-3_sf_2043_start49.25_3.csv 3
+2-3_sf_2043_start53.25_2.csv 2
+2-3_sf_2043_start55.65_2_3_12.csv 2 3 12
+2-3_sf_2346_start0.0_1_3.csv 1 3
+2-3_sf_2346_start1.85_3.csv 3
+2-3_sf_2346_start5.7_2.csv 2
+2-3_sf_2346_start8.0_2_3_12.csv 2 3 12
+2-3_sf_2346_start10.8_2.csv 2
+2-3_sf_2346_start14.8_2.csv 2
+2-3_sf_2346_start17.35_2.csv 2
+2-3_sf_2346_start21.3_3_9.csv 3 9
+2-3_sf_2346_start24.8_3_9.csv 3 9
+2-3_sf_2346_start25.9_3_9.csv 3 9
+2-3_sf_2346_start29.9_2_9.csv 2 9
+2-3_sf_2346_start30.85_2_9.csv 2 9
+2-3_sf_2346_start31.85_2_3_9_12.csv 2 3 9 12
+2-3_sf_2346_start34.8_3.csv 3
+2-3_sf_2346_start37.15_2_3_9_12.csv 2 3 9 12
+2-3_sf_2346_start38.7_2_3_9_12.csv 2 3 9 12
+2-3_sf_2346_start40.15_2_9.csv 2 9
+2-3_sf_2346_start42.45_2.csv 2
+2-3_sf_2346_start46.45_3_9.csv 3 9
+2-3_sf_2346_start49.5_3_9.csv 3 9
+2-3_sf_2346_start53.5_5_6.csv 5 6
+2-3_sf_2346_start54.8_5_6.csv 5 6
+2-3_sf_2346_start55.95_3_5_6.csv 3 5 6
+2-3_sf_2358_start6.65_3.csv 3
+2-3_sf_2358_start9.3_2_3_12.csv 2 3 12
+2-3_sf_2358_start10.65_2_3_12.csv 2 3 12
+2-3_sf_2358_start13.5_2.csv 2
+2-3_sf_2358_start16.0_2.csv 2
+2-3_sf_2358_start20.05_3.csv 3
+2-3_sf_2358_start22.6_3_9.csv 3 9
+2-3_sf_2358_start26.05_3_5_6.csv 3 5 6
+2-3_sf_2358_start29.7_3_9.csv 3 9
+2-3_sf_2358_start31.45_3_9.csv 3 9
+2-3_sf_2358_start33.7_3_9.csv 3 9
+2-3_sf_2358_start34.7_3.csv 3
+2-3_sf_2358_start37.0_2_3_11_12.csv 2 3 11 12
+2-3_sf_2358_start37.85_2_3_11_12.csv 2 3 11 12
+2-3_sf_2358_start39.3_2_3_12.csv 2 3 12
+2-3_sf_2358_start41.35_2_3_12.csv 2 3 12
+2-3_sf_2358_start44.75_2.csv 2
+2-3_sf_2358_start47.75_2_3_12.csv 2 3 12
+2-3_sf_2358_start50.0_2.csv 2
+2-3_sf_2358_start54.0_2.csv 2
+2-3_sf_2358_start55.95_2_3_4_12.csv 2 3 4 12
+2-4_sf_0027_start0.0_2.csv 2
+2-4_sf_0027_start1.35_2.csv 2
+2-4_sf_0027_start5.1_3.csv 3
+2-4_sf_0027_start8.9_2.csv 2
+2-4_sf_0027_start10.65_2.csv 2
+2-4_sf_0027_start13.35_2_3_9_12.csv 2 3 9 12
+2-4_sf_0027_start16.0_2_9.csv 2 9
+2-4_sf_0027_start20.0_2_9.csv 2 9
+2-4_sf_0027_start22.35_2_9.csv 2 9
+2-4_sf_0027_start24.05_2_3_9_12.csv 2 3 9 12
+2-4_sf_0027_start26.3_3_9.csv 3 9
+2-4_sf_0027_start28.05_3_9.csv 3 9
+2-4_sf_0027_start30.3_3_9.csv 3 9
+2-4_sf_0027_start32.05_3_9.csv 3 9
+2-4_sf_0027_start36.7_5_6.csv 5 6
+2-4_sf_0027_start37.55_5_6.csv 5 6
+2-4_sf_0027_start38.55_5_6.csv 5 6
+2-4_sf_0027_start42.15_3_5_6_9.csv 3 5 6 9
+2-4_sf_0027_start46.55_3.csv 3
+2-4_sf_0027_start50.3_0_3.csv 0 3
+2-4_sf_0027_start52.85_0_2_3_12.csv 0 2 3 12
+2-4_sf_0027_start55.1_0_3.csv 0 3
+2-4_sf_0027_start55.95_0_3.csv 0 3
+2-4_sf_0049_start0.0_0_1.csv 0 1
+2-4_sf_0049_start3.95_0_1.csv 0 1
+2-4_sf_0049_start7.95_0_1.csv 0 1
+2-4_sf_0049_start11.95_0_1.csv 0 1
+2-4_sf_0049_start15.95_0_1.csv 0 1
+2-4_sf_0049_start19.95_0_1.csv 0 1
+2-4_sf_0049_start21.55_0_1.csv 0 1
+2-4_sf_0049_start23.95_0_1.csv 0 1
+2-4_sf_0049_start25.15_0_1.csv 0 1
+2-4_sf_0049_start29.1_3.csv 3
+2-4_sf_0049_start30.25_3.csv 3
+2-4_sf_0049_start33.05_2_3_12.csv 2 3 12
+2-4_sf_0049_start34.75_2_3_12.csv 2 3 12
+2-4_sf_0049_start37.6_2.csv 2
+2-4_sf_0049_start40.5_2.csv 2
+2-4_sf_0049_start44.5_3.csv 3
+2-4_sf_0049_start45.9_3.csv 3
+2-4_sf_0049_start49.9_5_6.csv 5 6
+2-4_sf_0049_start53.4_5_6.csv 5 6
+2-4_sf_0049_start55.95_3_5_6.csv 3 5 6
+2-4_sf_2000_start0.05_0_3_10.csv 0 3 10
+2-4_sf_2000_start4.1_2.csv 2
+2-4_sf_2000_start5.0_0_2.csv 0 2
+2-4_sf_2000_start8.45_0_2_3_10_12.csv 0 2 3 10 12
+2-4_sf_2000_start9.3_0_3_10.csv 0 3 10
+2-4_sf_2000_start13.45_2.csv 2
+2-4_sf_2000_start16.15_2.csv 2
+2-4_sf_2000_start18.85_0_2_3_10_12.csv 0 2 3 10 12
+2-4_sf_2000_start20.2_0_2_3_10_12.csv 0 2 3 10 12
+2-4_sf_2000_start21.75_0_2_3_10_12.csv 0 2 3 10 12
+2-4_sf_2000_start39.0_3.csv 3
+2-4_sf_2000_start41.3_3_9.csv 3 9
+2-4_sf_2000_start42.45_3_5_6_9.csv 3 5 6 9
+2-4_sf_2000_start45.5_5_6.csv 5 6
+2-4_sf_2000_start47.1_5_6.csv 5 6
+2-4_sf_2000_start51.25_3.csv 3
+2-4_sf_2000_start55.25_3.csv 3
+2-4_sf_2000_start56.2_3.csv 3
+2-4_sf_2018_start0.0_0_3_10.csv 0 3 10
+2-4_sf_2018_start1.45_0_2_3_10_12.csv 0 2 3 10 12
+2-4_sf_2018_start3.95_0_2_3_10_12.csv 0 2 3 10 12
+2-4_sf_2018_start7.95_0_2_3_10_12.csv 0 2 3 10 12
+2-4_sf_2018_start9.35_0_3_10.csv 0 3 10
+2-4_sf_2018_start11.95_0_3_10.csv 0 3 10
+2-4_sf_2018_start15.95_2.csv 2
+2-4_sf_2018_start18.35_2_3_12.csv 2 3 12
+2-4_sf_2018_start19.5_2_3_12.csv 2 3 12
+2-4_sf_2018_start21.7_2_3_12_16.csv 2 3 12 16
+2-4_sf_2018_start23.95_3_16.csv 3 16
+2-4_sf_2018_start26.95_3.csv 3
+2-4_sf_2018_start30.0_3.csv 3
+2-4_sf_2018_start33.7_3_5_6.csv 3 5 6
+2-4_sf_2018_start37.45_3.csv 3
+2-4_sf_2018_start40.8_3.csv 3
+2-4_sf_2018_start45.0_2.csv 2
+2-4_sf_2018_start49.0_2.csv 2
+2-4_sf_2018_start53.0_2.csv 2
+2-4_sf_2018_start56.2_2.csv 2
+2-4_sf_2022_start0.0_2_3_12.csv 2 3 12
+2-4_sf_2022_start3.35_3_9.csv 3 9
+2-4_sf_2022_start5.05_2_3_9_12.csv 2 3 9 12
+2-4_sf_2022_start6.2_2_3_9_12.csv 2 3 9 12
+2-4_sf_2022_start8.95_3_9.csv 3 9
+2-4_sf_2022_start11.0_3_9.csv 3 9
+2-4_sf_2022_start12.05_3_9.csv 3 9
+2-4_sf_2022_start16.6_7.csv 7
+2-4_sf_2022_start20.6_7_8.csv 7 8
+2-4_sf_2022_start21.4_7_8.csv 7 8
+2-4_sf_2022_start24.6_7_8.csv 7 8
+2-4_sf_2022_start29.05_3.csv 3
+2-4_sf_2022_start32.9_2.csv 2
+2-4_sf_2022_start36.9_2.csv 2
+2-4_sf_2022_start39.35_2.csv 2
+2-4_sf_2022_start42.65_2_3_12.csv 2 3 12
+2-4_sf_2022_start45.9_2.csv 2
+2-4_sf_2022_start50.9_3.csv 3
+2-4_sf_2022_start52.25_3.csv 3
+2-4_sf_2022_start54.75_2_3_12.csv 2 3 12
+2-5_sf_1616_start0.0_3_9.csv 3 9
+2-5_sf_1616_start3.95_3_9.csv 3 9
+2-5_sf_1616_start5.15_3_9.csv 3 9
+2-5_sf_1616_start9.5_7.csv 7
+2-5_sf_1616_start13.0_7_8.csv 7 8
+2-5_sf_1616_start16.7_3_8.csv 3 8
+2-5_sf_1616_start20.5_2.csv 2
+2-5_sf_1616_start24.5_2.csv 2
+2-5_sf_1616_start28.0_2.csv 2
+2-5_sf_1616_start31.9_1_3.csv 1 3
+2-5_sf_1616_start35.6_1.csv 1
+2-5_sf_1616_start39.6_1.csv 1
+2-5_sf_1616_start43.35_1.csv 1
+2-5_sf_1616_start46.85_1_3.csv 1 3
+2-5_sf_2005_start0.0_2.csv 2
+2-5_sf_2005_start4.35_3.csv 3
+2-5_sf_2005_start8.35_3_9.csv 3 9
+2-5_sf_2005_start11.3_3_9.csv 3 9
+2-5_sf_2005_start12.35_3_9.csv 3 9
+2-5_sf_2005_start15.3_2_3_9_12.csv 2 3 9 12
+2-5_sf_2005_start17.65_2_3_9_12.csv 2 3 9 12
+2-5_sf_2005_start19.3_2_3_9_12.csv 2 3 9 12
+2-5_sf_2005_start20.15_2_3_9_12.csv 2 3 9 12
+2-5_sf_2005_start22.25_2_3_9_12.csv 2 3 9 12
+2-5_sf_2005_start23.3_2_3_9_12.csv 2 3 9 12
+2-5_sf_2005_start25.15_2_3_9_12.csv 2 3 9 12
+2-5_sf_2005_start26.85_2_3_9_12.csv 2 3 9 12
+2-5_sf_2005_start28.05_2_3_9_12.csv 2 3 9 12
+2-5_sf_2005_start29.2_2_3_9_12.csv 2 3 9 12
+2-5_sf_2005_start31.75_3_9.csv 3 9
+2-5_sf_2005_start33.7_3_9.csv 3 9
+2-5_sf_2005_start38.1_6.csv 6
+2-5_sf_2005_start39.4_6.csv 6
+2-5_sf_2005_start43.3_3.csv 3
+2-5_sf_2005_start44.6_3.csv 3
+2-5_sf_2005_start47.6_2_3_9_12.csv 2 3 9 12
+2-5_sf_2005_start50.6_3.csv 3
+2-5_sf_2005_start51.85_3.csv 3
+2-6_sf_0112_start0.0_4.csv 4
+2-6_sf_0112_start3.95_4.csv 4
+2-6_sf_0112_start7.95_4_13.csv 4 13
+2-6_sf_0112_start9.3_4_13.csv 4 13
+2-6_sf_0112_start11.95_4_13.csv 4 13
+2-6_sf_0112_start15.95_4.csv 4
+2-6_sf_0112_start19.95_4.csv 4
+2-6_sf_0112_start23.95_4.csv 4
+2-6_sf_0112_start27.95_4.csv 4
+2-6_sf_0112_start31.95_4.csv 4
+2-6_sf_0112_start35.95_4.csv 4
+2-6_sf_0112_start38.3_4.csv 4
+2-6_sf_0112_start41.0_3_4_11.csv 3 4 11
+2-6_sf_0112_start42.25_3_11.csv 3 11
+2-6_sf_0112_start44.75_3.csv 3
+2-6_sf_0112_start49.0_2_6.csv 2 6
+2-6_sf_0112_start50.6_2_6.csv 2 6
+2-6_sf_0112_start53.0_2_6.csv 2 6
+2-6_sf_0112_start54.15_2_6.csv 2 6
+2-6_sf_0112_start55.95_2_3_6_12.csv 2 3 6 12
+2-6_sf_0120_start6.3_3.csv 3
+2-6_sf_0120_start10.3_3_9.csv 3 9
+2-6_sf_0120_start11.75_3_9.csv 3 9
+2-6_sf_0120_start14.3_3_9.csv 3 9
+2-6_sf_0120_start18.6_7.csv 7
+2-6_sf_0120_start22.6_7_8.csv 7 8
+2-6_sf_0120_start25.25_7_8.csv 7 8
+2-6_sf_0120_start26.6_7_8.csv 7 8
+2-6_sf_0120_start29.25_7_8.csv 7 8
+2-6_sf_0120_start33.6_3.csv 3
+2-6_sf_0120_start37.6_3.csv 3
+2-6_sf_0120_start40.3_3.csv 3
+2-6_sf_1758_start0.0_2_3_12.csv 2 3 12
+2-6_sf_1758_start3.7_3_9.csv 3 9
+2-6_sf_1758_start5.15_3_5_9.csv 3 5 9
+2-6_sf_1758_start8.0_5_6.csv 5 6
+2-6_sf_1758_start8.9_5_6.csv 5 6
+2-6_sf_1758_start10.85_5_6.csv 5 6
+2-6_sf_1758_start15.05_3.csv 3
+2-6_sf_1758_start17.25_0_2_3_11_12.csv 0 2 3 11 12
+2-6_sf_1758_start18.1_0_2_3_11_12.csv 0 2 3 11 12
+2-6_sf_1758_start20.6_2.csv 2
+2-6_sf_1758_start24.6_2.csv 2
+2-6_sf_1758_start28.6_2.csv 2
+2-6_sf_1758_start31.9_2.csv 2
+2-6_sf_1758_start35.9_4.csv 4
+2-6_sf_1758_start39.9_4.csv 4
+2-6_sf_1758_start43.9_4.csv 4
+2-6_sf_1758_start47.9_4_15.csv 4 15
+2-6_sf_1758_start49.2_4_15.csv 4 15
+2-6_sf_1758_start51.9_4_15.csv 4 15
+2-6_sf_1758_start55.9_4.csv 4
+2-6_sf_2341_start39.3_3.csv 3
+2-6_sf_2341_start43.3_3_9.csv 3 9
+2-6_sf_2341_start47.3_3_9.csv 3 9
+2-6_sf_2341_start48.15_3_9.csv 3 9
+2-6_sf_2341_start52.15_7.csv 7
+2-6_sf_2341_start55.9_7.csv 7
+2-6_sf_2342_start0.0_7.csv 7
+2-6_sf_2342_start3.95_7_8.csv 7 8
+2-6_sf_2342_start5.75_7_8.csv 7 8
+2-6_sf_2342_start9.6_3.csv 3
+2-6_sf_2342_start24.35_3.csv 3
+2-6_sf_2342_start26.6_2_3_12.csv 2 3 12
+2-6_sf_2342_start29.0_3.csv 3
+2-6_sf_2342_start33.45_2.csv 2
+2-6_sf_2342_start36.6_2_3_12.csv 2 3 12
+2-6_sf_2342_start38.8_2_3_10_12.csv 2 3 10 12
+2-6_sf_2342_start41.05_2_3_10_12.csv 2 3 10 12
+2-7_sf_0114_start0.0_1.csv 1
+2-7_sf_0114_start1.25_1.csv 1
+2-7_sf_0114_start4.1_1_2_3_9_12.csv 1 2 3 9 12
+2-7_sf_0114_start5.65_2_3_9_12.csv 2 3 9 12
+2-7_sf_0114_start6.6_2_3_9_12.csv 2 3 9 12
+2-7_sf_0114_start7.8_2_3_5_9_12.csv 2 3 5 9 12
+2-7_sf_0114_start11.25_5_6.csv 5 6
+2-7_sf_0114_start14.85_5_6.csv 5 6
+2-7_sf_0114_start19.1_3.csv 3
+2-7_sf_0114_start21.75_2_3_12.csv 2 3 12
+2-7_sf_0114_start22.95_2_3_12_15.csv 2 3 12 15
+2-7_sf_0114_start25.75_2_15.csv 2 15
+2-7_sf_0114_start26.6_2_15.csv 2 15
+2-7_sf_0114_start27.5_2_15.csv 2 15
+2-7_sf_0114_start31.45_3.csv 3
+2-7_sf_0114_start35.45_3_9.csv 3 9
+2-7_sf_0114_start37.35_2_3_9_12.csv 2 3 9 12
+2-7_sf_0114_start38.65_2_3_9_12.csv 2 3 9 12
+2-7_sf_0114_start41.5_3.csv 3
+2-7_sf_0114_start45.55_2.csv 2
+2-7_sf_0114_start48.3_2_9.csv 2 9
+2-7_sf_0114_start49.55_2_9.csv 2 9
+2-7_sf_0114_start53.55_2.csv 2
+2-7_sf_0114_start55.95_2.csv 2
+2-7_sf_1902_start0.0_2_3_9_12.csv 2 3 9 12
+2-7_sf_1902_start1.6_2_3_9_12.csv 2 3 9 12
+2-7_sf_1902_start3.1_2_3_9_12.csv 2 3 9 12
+2-7_sf_1902_start6.2_3_9.csv 3 9
+2-7_sf_1902_start7.35_3_9.csv 3 9
+2-7_sf_1902_start11.45_7.csv 7
+2-7_sf_1902_start15.45_7_8.csv 7 8
+2-7_sf_1902_start16.35_7_8.csv 7 8
+2-7_sf_1902_start19.45_7_8.csv 7 8
+2-7_sf_1902_start23.55_3.csv 3
+2-7_sf_1902_start27.55_3.csv 3
+2-7_sf_1902_start30.45_3.csv 3
+2-7_sf_2032_start0.0_3_9.csv 3 9
+2-7_sf_2032_start3.05_2_3_9_12.csv 2 3 9 12
+2-7_sf_2032_start3.95_2_3_9_12.csv 2 3 9 12
+2-7_sf_2032_start5.6_3_9.csv 3 9
+2-7_sf_2032_start7.1_3_9.csv 3 9
+2-7_sf_2032_start11.1_5_6.csv 5 6
+2-7_sf_2032_start14.8_2_3_5_6_12.csv 2 3 5 6 12
+2-7_sf_2032_start17.4_2_3_12.csv 2 3 12
+2-7_sf_2032_start20.45_3.csv 3
+2-7_sf_2032_start22.55_3.csv 3
+2-7_sf_2150_start0.0_3.csv 3
+2-7_sf_2150_start2.35_3_11.csv 3 11
+2-7_sf_2150_start3.65_2_3_11_12.csv 2 3 11 12
+2-7_sf_2150_start4.85_2_3_12.csv 2 3 12
+2-7_sf_2150_start6.95_3_9.csv 3 9
+2-7_sf_2150_start9.05_2_3_9_12.csv 2 3 9 12
+2-7_sf_2150_start10.05_2_3_12.csv 2 3 12
+2-7_sf_2150_start11.7_2_3_9_12.csv 2 3 9 12
+2-7_sf_2150_start14.5_3_9.csv 3 9
+2-7_sf_2150_start18.7_2_3_12.csv 2 3 12
+2-7_sf_2150_start21.7_2_3_9_12.csv 2 3 9 12
+2-7_sf_2150_start24.65_3.csv 3
+2-7_sf_2150_start28.7_7.csv 7
+2-7_sf_2150_start31.75_7_8.csv 7 8
+2-7_sf_2150_start32.85_3_7_8.csv 3 7 8
+2-7_sf_2150_start35.75_3_9.csv 3 9
+2-7_sf_2150_start38.85_3_9.csv 3 9
+2-7_sf_2150_start42.55_2_3_12.csv 2 3 12
+2-7_sf_2150_start47.25_3.csv 3
+2-7_sf_2150_start48.75_3.csv 3
+2-7_sf_2150_start51.25_2_3_12.csv 2 3 12
+2-7_sf_2150_start53.75_3.csv 3
+2-7_sf_2150_start55.95_3.csv 3
+2-9_sf_1104_start0.0_3_4.csv 3 4
+2-9_sf_1104_start1.9_2_3_4_9_12.csv 2 3 4 9 12
+2-9_sf_1104_start4.3_2_3_9_12.csv 2 3 9 12
+2-9_sf_1104_start5.25_2_9.csv 2 9
+2-9_sf_1104_start8.1_2_3_12.csv 2 3 12
+2-9_sf_1104_start19.75_3.csv 3
+2-9_sf_1104_start23.75_3.csv 3
+2-9_sf_1104_start24.75_3.csv 3
+2-9_sf_1104_start28.75_5_6.csv 5 6
+2-9_sf_1104_start30.35_5_6.csv 5 6
+2-9_sf_1104_start31.35_5_6.csv 5 6
+2-9_sf_1104_start35.15_2_3_12.csv 2 3 12
+2-9_sf_1104_start38.75_2_15.csv 2 15
+2-9_sf_1104_start40.75_2_15.csv 2 15
+2-9_sf_1104_start42.75_2_15.csv 2 15
+2-9_sf_1104_start44.75_2_15.csv 2 15
+2-9_sf_1104_start48.55_2_3_12.csv 2 3 12
+2-9_sf_1104_start51.25_2_3_9_12.csv 2 3 9 12
+2-9_sf_1104_start54.45_3.csv 3
+2-9_sf_1104_start55.95_3.csv 3
+2-9_sf_1139_start0.0_3.csv 3
+2-9_sf_1139_start2.3_3_9.csv 3 9
+2-9_sf_1139_start3.95_3_9.csv 3 9
+2-9_sf_1139_start5.6_3_9.csv 3 9
+2-9_sf_1139_start7.95_3_9.csv 3 9
+2-9_sf_1139_start9.6_3.csv 3
+2-9_sf_1139_start14.05_7.csv 7
+2-9_sf_1139_start18.05_7_8.csv 7 8
+2-9_sf_1139_start22.25_2_3_7_12.csv 2 3 7 12
+2-9_sf_1139_start25.65_2.csv 2
+2-9_sf_1139_start28.8_2_3_12.csv 2 3 12
+2-9_sf_1139_start32.4_2.csv 2
+2-9_sf_1139_start33.9_2.csv 2
+2-9_sf_1139_start37.9_3.csv 3
+2-9_sf_1139_start38.9_3.csv 3
+2-9_sf_1720_start0.0_3_9.csv 3 9
+2-9_sf_1720_start1.35_3_9.csv 3 9
+2-9_sf_1720_start2.85_3_7_9.csv 3 7 9
+2-9_sf_1720_start5.75_7_9.csv 7 9
+2-9_sf_1720_start9.75_7_8.csv 7 8
+2-9_sf_1720_start10.85_7_8.csv 7 8
+2-9_sf_1720_start14.95_3.csv 3
+2-9_sf_1720_start18.9_3.csv 3
+2-9_sf_1720_start22.95_2.csv 2
+2-9_sf_1720_start26.95_2.csv 2
+2-9_sf_1720_start30.95_2.csv 2
+2-9_sf_1720_start31.85_2.csv 2
+2-9_sf_1720_start35.25_2_3_12.csv 2 3 12
+2-9_sf_2059_start0.0_4.csv 4
+2-9_sf_2059_start3.95_4.csv 4
+2-9_sf_2059_start7.95_4.csv 4
+2-9_sf_2059_start11.95_4_15.csv 4 15
+2-9_sf_2059_start14.5_4_15.csv 4 15
+2-9_sf_2059_start15.95_4_15.csv 4 15
+2-9_sf_2059_start17.95_4_15.csv 4 15
+2-9_sf_2059_start19.05_4_15.csv 4 15
+2-9_sf_2059_start23.05_3_9.csv 3 9
+2-9_sf_2059_start23.95_3_9.csv 3 9
+2-9_sf_2059_start27.05_3_9.csv 3 9
+2-9_sf_2059_start27.95_3_9.csv 3 9
+2-9_sf_2059_start31.95_2_3_9_12.csv 2 3 9 12
+2-9_sf_2059_start33.6_2_3_9_12.csv 2 3 9 12
+2-9_sf_2059_start35.85_2_9.csv 2 9
+2-9_sf_2059_start36.9_2_3_9_12.csv 2 3 9 12
+2-9_sf_2059_start38.6_2_3_7_9_12.csv 2 3 7 9 12
+2-9_sf_2059_start41.1_7.csv 7
+2-9_sf_2059_start45.1_7_8.csv 7 8
+2-9_sf_2059_start46.75_7_8.csv 7 8
+2-9_sf_2059_start48.7_7_8.csv 7 8
+2-9_sf_2059_start52.3_2_3_7_8_12.csv 2 3 7 8 12
+2-9_sf_2059_start55.95_2.csv 2
+2_1_kt_0000_start0.0_1.csv 1
+2_1_kt_0000_start3.95_1.csv 1
+2_1_kt_0000_start7.95_1.csv 1
+2_1_kt_0000_start11.95_1.csv 1
+2_1_kt_0000_start15.95_1.csv 1
+2_1_kt_0000_start19.95_1.csv 1
+2_1_kt_0000_start23.95_1.csv 1
+2_1_kt_0000_start27.95_1.csv 1
+2_1_kt_0000_start31.95_1.csv 1
+2_1_kt_0000_start35.95_1.csv 1
+2_1_kt_0000_start39.95_1.csv 1
+2_1_kt_0000_start43.95_1.csv 1
+2_1_kt_0000_start47.95_1.csv 1
+2_1_kt_0000_start51.95_1.csv 1
+2_1_kt_0000_start55.25_1.csv 1
+2_1_kt_0015_start0.0_2_3_12.csv 2 3 12
+2_1_kt_0015_start3.65_3.csv 3
+2_1_kt_0015_start4.85_3.csv 3
+2_1_kt_0015_start7.8_2_3_9_12.csv 2 3 9 12
+2_1_kt_0015_start8.95_2_3_9_12.csv 2 3 9 12
+2_1_kt_0015_start10.85_2_3_9_12.csv 2 3 9 12
+2_1_kt_0015_start14.45_2_3_9_12.csv 2 3 9 12
+2_1_kt_0015_start19.25_3.csv 3
+2_1_kt_0015_start28.65_3.csv 3
+2_1_kt_0015_start32.65_3_12.csv 3 12
+2_1_kt_0015_start36.05_2_3_12.csv 2 3 12
+2_1_kt_0015_start39.55_3_12.csv 3 12
+2_1_kt_0015_start40.65_3_12.csv 3 12
+2_1_kt_0015_start47.6_3.csv 3
+2_1_kt_0015_start51.6_3.csv 3
+2_1_kt_0015_start55.0_3_9.csv 3 9
+2_1_kt_0030_start0.0_1.csv 1
+2_1_kt_0030_start3.95_1.csv 1
+2_1_kt_0030_start6.45_1.csv 1
+2_1_kt_0030_start9.15_1_3_11.csv 1 3 11
+2_1_kt_0030_start10.5_3_11.csv 3 11
+2_1_kt_0045_start0.0_0_3_10.csv 0 3 10
+2_1_kt_0045_start1.65_0_3_10.csv 0 3 10
+2_1_kt_0045_start3.95_0_3_10.csv 0 3 10
+2_1_kt_0045_start5.4_0_3_10.csv 0 3 10
+2_1_kt_0045_start7.95_0_2_3_10_12.csv 0 2 3 10 12
+2_1_kt_0045_start9.2_0_2.csv 0 2
+2_1_kt_0045_start11.55_0_2_3_10_12.csv 0 2 3 10 12
+2_1_kt_0045_start13.1_0_3_10.csv 0 3 10
+2_1_kt_0045_start15.05_0_2_3_12.csv 0 2 3 12
+2_1_kt_0045_start16.4_0_2_3_9_12.csv 0 2 3 9 12
+2_1_kt_0045_start19.2_2_3_9_12.csv 2 3 9 12
+2_1_kt_0045_start23.65_0_3_10.csv 0 3 10
+2_1_kt_0045_start26.15_0_3_10.csv 0 3 10
+2_1_kt_0045_start27.65_0_3_10.csv 0 3 10
+2_1_kt_0045_start30.15_0_3_10.csv 0 3 10
+2_1_kt_0045_start31.65_0_3_10.csv 0 3 10
+2_1_kt_0045_start34.15_0_2_3_10_12.csv 0 2 3 10 12
+2_1_kt_0045_start36.75_0_2_3_12.csv 0 2 3 12
+2_1_kt_0045_start38.15_0_2_3_12.csv 0 2 3 12
+2_1_kt_0045_start39.95_0_2.csv 0 2
+2_1_kt_0045_start41.45_0_2.csv 0 2
+2_1_kt_0045_start44.0_0_2_3_12.csv 0 2 3 12
+2_1_kt_0045_start45.15_0_2_3_10_12.csv 0 2 3 10 12
+2_1_kt_0045_start46.15_0_2_3_10_12.csv 0 2 3 10 12
+2_1_kt_0045_start46.95_0_2_3_10_12.csv 0 2 3 10 12
+2_1_kt_0045_start49.6_0_2_3_12.csv 0 2 3 12
+2_1_kt_0045_start52.55_0_2.csv 0 2
+2_1_kt_0045_start54.15_0_2_3_10_12.csv 0 2 3 10 12
+2_1_kt_0045_start55.7_0_2_3_10_12.csv 0 2 3 10 12
+2_1_kt_0100_start0.0_2_3_12.csv 2 3 12
+2_1_kt_0100_start2.15_3.csv 3
+2_1_kt_0100_start4.25_3.csv 3
+2_1_kt_0100_start8.25_1.csv 1
+2_1_kt_0100_start12.25_1.csv 1
+2_1_kt_0100_start13.8_1.csv 1
+2_1_kt_0115_start0.0_0_1.csv 0 1
+2_1_kt_0115_start3.95_0_1.csv 0 1
+2_1_kt_0115_start7.95_0_1.csv 0 1
+2_1_kt_0115_start11.95_0_1.csv 0 1
+2_1_kt_0115_start15.95_0_1.csv 0 1
+2_1_kt_0115_start19.95_0_1.csv 0 1
+2_1_kt_0115_start23.95_0_1.csv 0 1
+2_1_kt_0115_start27.95_0_1.csv 0 1
+2_1_kt_0115_start31.95_0_1.csv 0 1
+2_1_kt_0115_start35.95_0_1.csv 0 1
+2_1_kt_0115_start39.95_0_1.csv 0 1
+2_1_kt_0115_start43.95_0_1.csv 0 1
+2_1_kt_0115_start47.95_0_1.csv 0 1
+2_1_kt_0115_start51.95_0_1.csv 0 1
+2_1_kt_0115_start55.65_0_1.csv 0 1
+2_1_kt_0145_start0.0_2.csv 2
+2_1_kt_0145_start3.95_0_2_3_10_12.csv 0 2 3 10 12
+2_1_kt_0145_start4.8_0_2_3_10_12.csv 0 2 3 10 12
+2_1_kt_0145_start5.75_0_2_3_10_12.csv 0 2 3 10 12
+2_1_kt_0145_start7.95_0_2.csv 0 2
+2_1_kt_0145_start11.95_2.csv 2
+2_1_kt_0145_start15.95_2.csv 2
+2_1_kt_0145_start19.95_2.csv 2
+2_1_kt_0145_start23.25_2_3_12.csv 2 3 12
+2_1_kt_0145_start27.95_2.csv 2
+2_1_kt_0145_start29.65_2.csv 2
+2_1_kt_0145_start32.25_2_3_10_11_12.csv 2 3 10 11 12
+2_1_kt_0145_start33.45_3_10_11.csv 3 10 11
+2_1_kt_0145_start34.55_3_10.csv 3 10
+2_1_kt_0200_start0.0_1.csv 1
+2_1_kt_0200_start3.95_1.csv 1
+2_1_kt_0200_start7.95_1_13.csv 1 13
+2_1_kt_0200_start9.05_1_13.csv 1 13
+2_1_kt_0200_start11.95_1_13.csv 1 13
+2_1_kt_0200_start13.05_1_13.csv 1 13
+2_1_kt_0200_start15.95_1_13.csv 1 13
+2_1_kt_0200_start19.95_1.csv 1
+2_1_kt_0200_start24.15_3.csv 3
+2_1_kt_0200_start25.15_3.csv 3
+2_1_kt_0200_start29.15_2.csv 2
+2_1_kt_0200_start33.15_2_9.csv 2 9
+2_1_kt_0200_start34.35_2_9.csv 2 9
+2_1_kt_0200_start37.15_2_9.csv 2 9
+2_1_kt_0200_start41.0_2_9_14.csv 2 9 14
+2_1_kt_0200_start42.55_2_9_14.csv 2 9 14
+2_1_kt_0200_start45.15_2_9.csv 2 9
+2_1_kt_0200_start46.55_2_9.csv 2 9
+2_1_kt_0200_start49.15_2_9.csv 2 9
+2_1_kt_0200_start53.15_2.csv 2
+2_1_kt_0200_start55.7_2.csv 2
+2_1_kt_1030_start0.0_0_2_9.csv 0 2 9
+2_1_kt_1030_start2.4_0_2_3_12.csv 0 2 3 12
+2_1_kt_1030_start4.25_0_2_3_12.csv 0 2 3 12
+2_1_kt_1030_start8.4_3.csv 3
+2_1_kt_1030_start9.6_3.csv 3
+2_1_kt_1030_start13.85_4.csv 4
+2_1_kt_1030_start18.25_1.csv 1
+2_1_kt_1030_start22.25_1.csv 1
+2_1_kt_1030_start26.25_1.csv 1
+2_1_kt_1030_start30.25_1.csv 1
+2_1_kt_1030_start34.25_1.csv 1
+2_1_kt_1030_start38.25_1.csv 1
+2_1_kt_1030_start42.25_1.csv 1
+2_1_kt_1030_start46.25_1.csv 1
+2_1_kt_1030_start50.25_1.csv 1
+2_1_kt_1030_start54.85_3.csv 3
+2_1_kt_1045_start0.0_1.csv 1
+2_1_kt_1045_start3.95_1.csv 1
+2_1_kt_1045_start7.95_1.csv 1
+2_1_kt_1045_start11.95_1.csv 1
+2_1_kt_1045_start15.95_1.csv 1
+2_1_kt_1045_start19.95_1.csv 1
+2_1_kt_1045_start23.95_1.csv 1
+2_1_kt_1045_start27.95_1.csv 1
+2_1_kt_1045_start31.95_1.csv 1
+2_1_kt_1045_start35.95_1.csv 1
+2_1_kt_1045_start39.95_1.csv 1
+2_1_kt_1045_start43.95_1.csv 1
+2_1_kt_1045_start47.95_1.csv 1
+2_1_kt_1045_start51.95_1.csv 1
+2_1_kt_1045_start55.3_1.csv 1
+2_1_kt_1115_start0.0_1.csv 1
+2_1_kt_1115_start3.95_1.csv 1
+2_1_kt_1115_start7.95_1.csv 1
+2_1_kt_1115_start11.95_1.csv 1
+2_1_kt_1115_start14.95_1.csv 1
+2_1_kt_1115_start19.1_0_2.csv 0 2
+2_1_kt_1115_start19.95_0_2.csv 0 2
+2_1_kt_1115_start20.85_0_2_3_12.csv 0 2 3 12
+2_1_kt_1115_start23.3_0_2_3_12.csv 0 2 3 12
+2_1_kt_1115_start26.25_2_3_12.csv 2 3 12
+2_1_kt_1115_start29.85_3.csv 3
+2_1_kt_1115_start32.75_0_3.csv 0 3
+2_1_kt_1115_start34.2_0_3.csv 0 3
+2_1_kt_1115_start36.6_0_3.csv 0 3
+2_1_kt_1115_start38.2_0_2_3_12.csv 0 2 3 12
+2_1_kt_1115_start40.7_0_2_3_12.csv 0 2 3 12
+2_1_kt_1115_start45.3_2.csv 2
+2_1_kt_1115_start49.3_2_9.csv 2 9
+2_1_kt_1115_start53.3_2_9.csv 2 9
+2_1_kt_1115_start55.35_2_9.csv 2 9
+2_1_kt_1130_start0.0_3.csv 3
+2_1_kt_1130_start1.25_3.csv 3
+2_1_kt_1130_start8.35_2_3_9_12.csv 2 3 9 12
+2_1_kt_1130_start10.7_2_3_9_12.csv 2 3 9 12
+2_1_kt_1130_start11.75_2_9.csv 2 9
+2_1_kt_1130_start15.75_2.csv 2
+2_1_kt_1130_start19.75_2.csv 2
+2_1_kt_1130_start23.75_2.csv 2
+2_1_kt_1130_start27.75_2.csv 2
+2_1_kt_1130_start31.75_2.csv 2
+2_1_kt_1130_start33.05_2.csv 2
+2_1_kt_1130_start37.1_4.csv 4
+2_1_kt_1130_start39.3_4.csv 4
+2_1_kt_1130_start41.75_3_4_10_11_13.csv 3 4 10 11 13
+2_1_kt_1130_start43.3_3_10_11_13.csv 3 10 11 13
+2_1_kt_1130_start47.3_2_3_10_12_13.csv 2 3 10 12 13
+2_1_kt_1130_start48.2_2_10_13.csv 2 10 13
+2_1_kt_1130_start51.3_2_4_10_13.csv 2 4 10 13
+2_1_kt_1130_start52.55_4_13.csv 4 13
+2_1_kt_1130_start55.3_4_13.csv 4 13
+2_1_kt_1133_start0.0_2_3_5_6_9_12.csv 2 3 5 6 9 12
+2_1_kt_1133_start1.05_2_3_5_6_9_12.csv 2 3 5 6 9 12
+2_1_kt_1133_start3.3_2_5_6.csv 2 5 6
+2_1_kt_1133_start5.45_2_3_5_6_12.csv 2 3 5 6 12
+2_1_kt_1133_start7.8_3_15.csv 3 15
+2_1_kt_1133_start11.3_2_3_12_15.csv 2 3 12 15
+2_1_kt_1133_start12.7_2_15.csv 2 15
+2_1_kt_1133_start16.3_2_3_12_15.csv 2 3 12 15
+2_1_kt_1133_start19.15_2_3_9_12.csv 2 3 9 12
+2_1_kt_1133_start20.4_2_3_9_12.csv 2 3 9 12
+2_1_kt_1133_start21.9_2_3_9_12.csv 2 3 9 12
+2_1_kt_1133_start22.9_2_3_9_12.csv 2 3 9 12
+2_1_kt_1133_start23.75_2_3_9_12.csv 2 3 9 12
+2_1_kt_1133_start27.8_3.csv 3
+2_1_kt_1133_start31.8_3.csv 3
+2_1_kt_1133_start35.8_3.csv 3
+2_1_kt_1133_start36.9_3.csv 3
+2_1_kt_1200_start0.0_3_9.csv 3 9
+2_1_kt_1200_start0.95_3_9.csv 3 9
+2_1_kt_1200_start3.95_2_3_9_12.csv 2 3 9 12
+2_1_kt_1200_start7.95_3_9.csv 3 9
+2_1_kt_1200_start11.9_3_9.csv 3 9
+2_1_kt_1200_start15.6_2_3_9_12.csv 2 3 9 12
+2_1_kt_1200_start18.65_2_3_9_12.csv 2 3 9 12
+2_1_kt_1200_start19.95_2_3_9_12.csv 2 3 9 12
+2_1_kt_1200_start21.35_2_3_9_12.csv 2 3 9 12
+2_1_kt_1200_start23.95_2_3_9_12.csv 2 3 9 12
+2_1_kt_1200_start25.6_3_9.csv 3 9
+2_1_kt_1200_start29.65_2_9.csv 2 9
+2_1_kt_1200_start30.75_2_9.csv 2 9
+2_1_kt_1200_start33.55_0_2_3_9_12.csv 0 2 3 9 12
+2_1_kt_1200_start34.6_0_2_3_9_12.csv 0 2 3 9 12
+2_1_kt_1200_start37.8_0_3.csv 0 3
+2_1_kt_1200_start39.35_0_3.csv 0 3
+2_1_kt_1200_start41.8_0_3.csv 0 3
+2_1_kt_1200_start42.95_0_3.csv 0 3
+2_1_kt_1200_start46.95_0_2.csv 0 2
+2_1_kt_1200_start48.55_0_2.csv 0 2
+2_1_kt_1200_start51.35_0_1_2.csv 0 1 2
+2_1_kt_1200_start52.55_0_1.csv 0 1
+2_1_kt_1200_start55.35_0_1.csv 0 1
+2_1_kt_1215_start0.0_2_3_10_12.csv 2 3 10 12
+2_1_kt_1215_start1.9_2_3_10_12.csv 2 3 10 12
+2_1_kt_1215_start6.5_3_4.csv 3 4
+2_1_kt_1215_start9.3_4.csv 4
+2_1_kt_1215_start12.65_3_4_10.csv 3 4 10
+2_1_kt_1215_start35.35_4_10_11.csv 4 10 11
+2_1_kt_1215_start37.95_4.csv 4
+2_1_kt_1215_start41.95_4.csv 4
+2_1_kt_1215_start45.95_4.csv 4
+2_1_kt_1215_start49.7_2_3_4_12.csv 2 3 4 12
+2_1_kt_1215_start51.3_2_3_4_12.csv 2 3 4 12
+2_1_kt_1215_start54.5_4.csv 4
+2_1_kt_1215_start55.35_4.csv 4
+2_1_kt_1325_start0.0_2_3_4_12.csv 2 3 4 12
+2_1_kt_1325_start2.9_4.csv 4
+2_1_kt_1325_start6.9_4.csv 4
+2_1_kt_1325_start10.9_4.csv 4
+2_1_kt_1325_start14.9_4.csv 4
+2_1_kt_1325_start18.9_4.csv 4
+2_1_kt_1325_start22.9_4.csv 4
+2_1_kt_1325_start26.9_4_15.csv 4 15
+2_1_kt_1325_start30.9_2_3_4_9_12.csv 2 3 4 9 12
+2_1_kt_1325_start31.9_2_3_9_12.csv 2 3 9 12
+2_1_kt_1325_start34.45_2_9.csv 2 9
+2_1_kt_1325_start35.9_2_9.csv 2 9
+2_1_kt_1325_start38.45_2_9.csv 2 9
+2_1_kt_1325_start39.9_2_9.csv 2 9
+2_1_kt_1325_start42.45_2_9.csv 2 9
+2_1_kt_1325_start43.9_2_9.csv 2 9
+2_1_kt_1325_start46.45_2_9.csv 2 9
+2_1_kt_1325_start47.65_2_9.csv 2 9
+2_1_kt_1325_start51.65_3_9.csv 3 9
+2_1_kt_1325_start55.4_2_3_5_6_9_12.csv 2 3 5 6 9 12
+2_1_kt_1430_start0.0_1.csv 1
+2_1_kt_1430_start3.95_1.csv 1
+2_1_kt_1430_start7.95_1.csv 1
+2_1_kt_1430_start11.95_1.csv 1
+2_1_kt_1430_start15.95_1.csv 1
+2_1_kt_1430_start19.95_1.csv 1
+2_1_kt_1430_start23.95_1.csv 1
+2_1_kt_1430_start27.95_1.csv 1
+2_1_kt_1430_start31.95_1.csv 1
+2_1_kt_1430_start35.95_1.csv 1
+2_1_kt_1430_start39.95_1.csv 1
+2_1_kt_1430_start43.95_1.csv 1
+2_1_kt_1430_start47.95_1.csv 1
+2_1_kt_1430_start51.95_1.csv 1
+2_1_kt_1430_start55.3_1.csv 1
+2_1_kt_1500_start0.0_1_3.csv 1 3
+2_1_kt_1500_start1.45_3.csv 3
+2_1_kt_1500_start5.6_2.csv 2
+2_1_kt_1500_start9.6_2.csv 2
+2_1_kt_1500_start13.5_2.csv 2
+2_1_kt_1500_start15.85_2_3_9_12.csv 2 3 9 12
+2_1_kt_1500_start18.05_2_9.csv 2 9
+2_1_kt_1500_start21.95_3.csv 3
+2_1_kt_1500_start25.85_3.csv 3
+2_1_kt_1500_start29.85_2.csv 2
+2_1_kt_1500_start33.85_2.csv 2
+2_1_kt_1500_start38.55_3.csv 3
+2_1_kt_1500_start40.45_3.csv 3
+2_1_kt_1504_start0.0_3_9.csv 3 9
+2_1_kt_1504_start2.2_3_9.csv 3 9
+2_1_kt_1504_start5.25_2_3_9_12.csv 2 3 9 12
+2_1_kt_1504_start6.2_2_3_9_12.csv 2 3 9 12
+2_1_kt_1504_start8.2_3_9.csv 3 9
+2_1_kt_1504_start10.15_3_9.csv 3 9
+2_1_kt_1504_start14.5_7_8.csv 7 8
+2_1_kt_1504_start18.5_7_8.csv 7 8
+2_1_kt_1504_start20.55_7_8.csv 7 8
+2_1_kt_1504_start24.1_2_3_7_8_12.csv 2 3 7 8 12
+2_1_kt_1504_start27.6_2.csv 2
+2_1_kt_1504_start31.8_3.csv 3
+2_1_kt_1504_start32.7_3.csv 3
+2_1_kt_1504_start36.7_1.csv 1
+2_1_kt_1504_start40.7_1_15.csv 1 15
+2_1_kt_1504_start43.4_1_15.csv 1 15
+2_1_kt_1504_start44.7_1_15.csv 1 15
+2_1_kt_1504_start48.7_1.csv 1
+2_1_kt_1504_start52.7_1.csv 1
+2_1_kt_1504_start55.4_1.csv 1
+2_1_kt_1530_start10.95_3_10.csv 3 10
+2_1_kt_1530_start12.3_3_10.csv 3 10
+2_1_kt_1530_start13.85_3_10.csv 3 10
+2_1_kt_1530_start17.85_1.csv 1
+2_1_kt_1530_start21.85_1.csv 1
+2_1_kt_1530_start25.85_1.csv 1
+2_1_kt_1530_start28.3_1.csv 1
+2_1_kt_1530_start32.3_3.csv 3
+2_1_kt_1530_start36.85_4.csv 4
+2_1_kt_1530_start38.0_4.csv 4
+2_1_kt_1530_start40.95_2_3_4_12.csv 2 3 4 12
+2_1_kt_1530_start44.0_2.csv 2
+2_1_kt_1530_start48.0_2.csv 2
+2_1_kt_1530_start50.9_2.csv 2
+2_1_kt_1530_start54.55_2_3_12.csv 2 3 12
+2_1_kt_1530_start55.4_2_3_12.csv 2 3 12
+2_1_kt_1630_start0.0_1.csv 1
+2_1_kt_1630_start3.95_1.csv 1
+2_1_kt_1630_start7.95_1.csv 1
+2_1_kt_1630_start11.95_1.csv 1
+2_1_kt_1630_start15.95_1.csv 1
+2_1_kt_1630_start19.95_1.csv 1
+2_1_kt_1630_start23.95_1.csv 1
+2_1_kt_1630_start27.95_1.csv 1
+2_1_kt_1630_start31.95_1.csv 1
+2_1_kt_1630_start35.95_1.csv 1
+2_1_kt_1630_start39.95_1.csv 1
+2_1_kt_1630_start43.95_1.csv 1
+2_1_kt_1630_start47.95_1.csv 1
+2_1_kt_1630_start49.95_1.csv 1
+2_1_kt_1630_start53.45_1_3_11.csv 1 3 11
+2_1_kt_1630_start55.4_3_11.csv 3 11
+2_1_kt_1730_start0.0_1.csv 1
+2_1_kt_1730_start3.95_1.csv 1
+2_1_kt_1730_start7.95_1.csv 1
+2_1_kt_1730_start11.95_1.csv 1
+2_1_kt_1730_start15.95_1.csv 1
+2_1_kt_1730_start19.95_1.csv 1
+2_1_kt_1730_start23.95_1.csv 1
+2_1_kt_1730_start27.95_1.csv 1
+2_1_kt_1730_start31.95_1.csv 1
+2_1_kt_1730_start34.4_1.csv 1
+2_1_kt_1800_start0.0_1.csv 1
+2_1_kt_1800_start3.95_0_1.csv 0 1
+2_1_kt_1800_start5.9_0_1.csv 0 1
+2_1_kt_1800_start7.95_0_1.csv 0 1
+2_1_kt_1800_start9.9_0_1.csv 0 1
+2_1_kt_1800_start11.95_0_1.csv 0 1
+2_1_kt_1800_start13.9_0_1.csv 0 1
+2_1_kt_1800_start15.95_0_1.csv 0 1
+2_1_kt_1800_start17.9_0_1.csv 0 1
+2_1_kt_1800_start19.95_0_1.csv 0 1
+2_1_kt_1800_start21.9_0_1.csv 0 1
+2_1_kt_1800_start23.95_0_1.csv 0 1
+2_1_kt_1800_start25.9_0_1.csv 0 1
+2_1_kt_1800_start27.95_0_1.csv 0 1
+2_1_kt_1800_start29.9_0_1.csv 0 1
+2_1_kt_1800_start31.95_0_1.csv 0 1
+2_1_kt_1800_start33.9_0_1.csv 0 1
+2_1_kt_1800_start35.95_0_1.csv 0 1
+2_1_kt_1800_start37.9_0_1.csv 0 1
+2_1_kt_1800_start39.95_0_1.csv 0 1
+2_1_kt_1800_start41.9_0_1.csv 0 1
+2_1_kt_1800_start43.95_0_1.csv 0 1
+2_1_kt_1800_start45.9_0_1.csv 0 1
+2_1_kt_1800_start47.95_0_1.csv 0 1
+2_1_kt_1800_start49.9_0_1.csv 0 1
+2_1_kt_1800_start51.95_0_1.csv 0 1
+2_1_kt_1800_start53.9_0_1.csv 0 1
+2_1_kt_1926_start0.0_4.csv 4
+2_1_kt_1926_start3.4_1_3_4_10.csv 1 3 4 10
+2_1_kt_1926_start5.15_1_3_10_11.csv 1 3 10 11
+2_1_kt_1926_start6.2_1_2_3_10_11_12.csv 1 2 3 10 11 12
+2_1_kt_1926_start7.25_2_3_10_11_12.csv 2 3 10 11 12
+2_1_kt_1926_start9.4_2_10_13.csv 2 10 13
+2_1_kt_1926_start11.9_1_2_10_13.csv 1 2 10 13
+2_1_kt_1926_start14.2_1_13.csv 1 13
+2_1_kt_1926_start15.9_1_13.csv 1 13
+2_1_kt_1926_start18.2_1_13.csv 1 13
+2_1_kt_1926_start19.9_1_13.csv 1 13
+2_1_kt_1926_start22.2_1_13.csv 1 13
+2_1_kt_1926_start23.9_1_13.csv 1 13
+2_1_kt_1926_start26.2_1_13.csv 1 13
+2_1_kt_1926_start27.9_1_13.csv 1 13
+2_1_kt_1926_start30.2_1_13.csv 1 13
+2_1_kt_1926_start31.9_1_13.csv 1 13
+2_1_kt_1926_start34.2_1_13.csv 1 13
+2_1_kt_1926_start35.9_1_13.csv 1 13
+2_1_kt_1926_start38.2_1_13.csv 1 13
+2_1_kt_1926_start39.9_1_13.csv 1 13
+2_1_kt_1926_start42.2_1_13.csv 1 13
+2_1_kt_1926_start43.9_1_13.csv 1 13
+2_1_kt_1926_start46.2_1_13.csv 1 13
+2_1_kt_1926_start47.9_1_13.csv 1 13
+2_1_kt_1926_start50.2_1_13.csv 1 13
+2_1_kt_1926_start51.9_1_13.csv 1 13
+2_1_kt_1926_start54.2_1_13.csv 1 13
+2_1_kt_1926_start55.3_1_13.csv 1 13
+2_1_kt_1930_start0.0_1_13.csv 1 13
+2_1_kt_1930_start2.4_1_13.csv 1 13
+2_1_kt_1930_start3.95_1_13.csv 1 13
+2_1_kt_1930_start7.95_1.csv 1
+2_1_kt_1930_start11.95_1.csv 1
+2_1_kt_1930_start15.95_1.csv 1
+2_1_kt_1930_start19.95_1.csv 1
+2_1_kt_1930_start23.95_1.csv 1
+2_1_kt_1930_start27.95_1.csv 1
+2_1_kt_1930_start31.95_1.csv 1
+2_1_kt_1930_start35.95_1.csv 1
+2_1_kt_1930_start39.95_1.csv 1
+2_1_kt_1930_start43.95_1.csv 1
+2_1_kt_1930_start47.95_1.csv 1
+2_1_kt_1930_start51.95_1.csv 1
+2_1_kt_1930_start55.35_1.csv 1
+2_1_kt_2000_start0.0_0_1.csv 0 1
+2_1_kt_2000_start3.95_0_1.csv 0 1
+2_1_kt_2000_start7.95_0_1.csv 0 1
+2_1_kt_2000_start11.95_0_1.csv 0 1
+2_1_kt_2000_start15.95_0_1.csv 0 1
+2_1_kt_2000_start19.95_0_1.csv 0 1
+2_1_kt_2000_start23.95_0_1.csv 0 1
+2_1_kt_2000_start27.0_0_1.csv 0 1
+2_1_kt_2000_start27.95_0_1.csv 0 1
+2_1_kt_2000_start31.95_1_15.csv 1 15
+2_1_kt_2000_start34.8_1_15.csv 1 15
+2_1_kt_2000_start35.95_1_15.csv 1 15
+2_1_kt_2000_start39.95_1.csv 1
+2_1_kt_2000_start43.95_1.csv 1
+2_1_kt_2000_start47.95_1.csv 1
+2_1_kt_2000_start51.95_0_1.csv 0 1
+2_1_kt_2000_start52.95_0_1.csv 0 1
+2_1_kt_2000_start55.35_0_1.csv 0 1
+2_1_kt_2030_start0.0_2.csv 2
+2_1_kt_2030_start3.95_2.csv 2
+2_1_kt_2030_start7.95_2.csv 2
+2_1_kt_2030_start11.95_2.csv 2
+2_1_kt_2030_start15.95_2.csv 2
+2_1_kt_2030_start19.95_2.csv 2
+2_1_kt_2030_start21.5_2.csv 2
+2_1_kt_2030_start25.5_3.csv 3
+2_1_kt_2030_start28.75_2_3_9_12.csv 2 3 9 12
+2_1_kt_2030_start31.25_2_3_9_12.csv 2 3 9 12
+2_1_kt_2030_start34.2_2_3_12.csv 2 3 12
+2_1_kt_2030_start37.0_0_2_3_12.csv 0 2 3 12
+2_1_kt_2030_start39.2_0_3_12.csv 0 3 12
+2_1_kt_2030_start40.2_0_12.csv 0 12
+2_1_kt_2030_start42.8_0_12.csv 0 12
+2_1_kt_2030_start46.8_0_2.csv 0 2
+2_1_kt_2030_start50.8_0_2.csv 0 2
+2_1_kt_2030_start54.8_0_2.csv 0 2
+2_1_kt_2045_start0.0_7_8.csv 7 8
+2_1_kt_2045_start3.95_7_8.csv 7 8
+2_1_kt_2045_start6.3_7_8.csv 7 8
+2_1_kt_2045_start10.25_3.csv 3
+2_1_kt_2045_start14.1_1.csv 1
+2_1_kt_2045_start18.1_1.csv 1
+2_1_kt_2045_start22.1_1.csv 1
+2_1_kt_2045_start26.1_1.csv 1
+2_1_kt_2045_start29.35_1.csv 1
+2_1_kt_2045_start32.6_1_3.csv 1 3
+2_1_kt_2100_start0.0_2_3_12.csv 2 3 12
+2_1_kt_2100_start2.8_2.csv 2
+2_1_kt_2100_start6.3_2_3_12_15.csv 2 3 12 15
+2_1_kt_2100_start9.75_2_15.csv 2 15
+2_1_kt_2100_start12.4_2_15.csv 2 15
+2_1_kt_2100_start16.4_3_15.csv 3 15
+2_1_kt_2100_start19.65_3.csv 3
+2_1_kt_2100_start51.75_0_3_10.csv 0 3 10
+2_1_kt_2100_start54.4_0_10.csv 0 10
+2_2_eat_drink_1211_start19.5_2_3_12.csv 2 3 12
+2_2_eat_drink_1211_start21.5_2_3_12.csv 2 3 12
+2_2_eat_drink_1211_start24.2_2_3_12.csv 2 3 12
+2_2_eat_drink_1211_start26.25_2_3_12.csv 2 3 12
+2_2_eat_drink_1211_start27.25_2_3_12.csv 2 3 12
+2_2_eat_drink_1211_start28.5_2_3_12.csv 2 3 12
+2_2_eat_drink_1211_start31.2_2_3_12.csv 2 3 12
+2_2_eat_drink_1211_start33.25_2_3_12.csv 2 3 12
+2_2_eat_drink_1211_start35.6_2.csv 2
+2_2_eat_drink_1211_start39.6_2.csv 2
+2_2_eat_drink_1211_start43.6_2.csv 2
+2_2_eat_drink_1211_start47.6_2.csv 2
+2_2_eat_drink_1211_start49.15_2.csv 2
+2_2_eat_drink_1211_start53.1_3_14.csv 3 14
+2_2_eat_drink_1211_start55.55_3_14.csv 3 14
+2_2_eat_drink_1212_start0.0_2_14.csv 2 14
+2_2_eat_drink_1212_start3.95_2_14.csv 2 14
+2_2_eat_drink_1212_start7.95_2_14.csv 2 14
+2_2_eat_drink_1212_start11.95_2_14.csv 2 14
+2_2_eat_drink_1212_start15.95_2_14.csv 2 14
+2_2_eat_drink_1212_start19.95_2_14.csv 2 14
+2_2_eat_drink_1212_start23.95_2_14.csv 2 14
+2_2_eat_drink_1212_start25.75_2_14.csv 2 14
+2_2_eat_drink_1212_start28.55_2_3_12_14.csv 2 3 12 14
+2_2_eat_drink_1401_start50.35_2_3_12_17.csv 2 3 12 17
+2_2_eat_drink_1401_start53.75_2_17.csv 2 17
+2_2_eat_drink_1401_start55.85_2_17.csv 2 17
+2_2_eat_drink_1945_start20.15_3.csv 3
+2_2_eat_drink_1945_start23.9_1.csv 1
+2_2_eat_drink_1945_start27.9_1.csv 1
+2_2_eat_drink_1945_start31.9_1.csv 1
+2_2_eat_drink_1945_start35.9_1.csv 1
+2_2_eat_drink_1945_start39.9_1.csv 1
+2_2_eat_drink_1945_start43.9_1.csv 1
+2_2_eat_drink_1945_start47.9_1.csv 1
+2_2_eat_drink_1945_start51.55_1.csv 1
+2_2_eat_drink_1945_start54.7_1_2_3_12_14.csv 1 2 3 12 14
+2_2_eat_drink_1945_start55.95_2_3_12_14.csv 2 3 12 14
+2_2_eat_drink_1946_start0.0_2_14.csv 2 14
+2_2_eat_drink_1946_start3.95_2_14.csv 2 14
+2_2_eat_drink_1946_start7.95_2_14.csv 2 14
+2_2_eat_drink_1946_start11.95_2_14.csv 2 14
+2_2_eat_drink_1946_start15.95_2_14.csv 2 14
+2_2_eat_drink_1946_start19.95_2_14.csv 2 14
+2_2_eat_drink_1946_start23.95_2_14.csv 2 14
+2_2_eat_drink_1946_start27.95_2_14.csv 2 14
+2_2_eat_drink_1946_start31.95_2_14.csv 2 14
+2_2_eat_drink_1946_start35.95_2_14.csv 2 14
+2_2_eat_drink_1946_start39.95_2_14.csv 2 14
+2_2_eat_drink_1946_start43.95_2_14.csv 2 14
+2_2_eat_drink_1946_start47.95_2_14.csv 2 14
+2_2_eat_drink_1946_start51.95_2_14.csv 2 14
+2_2_eat_drink_1946_start55.85_2_14.csv 2 14
+2_2_eat_drink_1947_start0.0_2_14.csv 2 14
+2_2_eat_drink_1947_start3.95_2_14.csv 2 14
+2_2_eat_drink_1947_start7.95_2_14.csv 2 14
+2_2_eat_drink_1947_start8.95_2_14.csv 2 14
+2_2_eat_drink_1947_start12.1_2_14.csv 2 14
+2_2_eat_drink_1947_start16.1_2_14.csv 2 14
+2_2_eat_drink_1947_start17.2_2_14.csv 2 14
+2_2_eat_drink_1947_start20.65_2_3_12_14_17.csv 2 3 12 14 17
+2_2_eat_drink_1947_start21.55_2_3_12_17.csv 2 3 12 17
+2_2_eat_drink_1947_start23.3_2_3_12_17.csv 2 3 12 17
+2_2_eat_drink_1947_start24.85_2_3_12.csv 2 3 12
+2_2_eat_drink_1947_start26.7_2_3_12.csv 2 3 12
+2_2_eat_drink_1947_start28.3_2_3_12.csv 2 3 12
+2_2_eat_drink_1947_start29.65_2_3_12_14.csv 2 3 12 14
+2_2_eat_drink_1947_start32.1_2_14.csv 2 14
+2_2_eat_drink_1947_start35.15_2_3_12_14.csv 2 3 12 14
+2_2_eat_drink_1947_start36.5_2_3_12.csv 2 3 12
+2_2_eat_drink_1947_start37.5_2_3_12_14.csv 2 3 12 14
+2_2_eat_drink_1947_start38.75_2_3_12_14.csv 2 3 12 14
+2_2_eat_drink_1947_start40.2_2_14.csv 2 14
+2_2_eat_drink_1947_start44.2_2_14.csv 2 14
+2_2_eat_drink_1947_start45.4_2_14.csv 2 14
+2_2_eat_drink_1947_start47.05_2_3_12_14.csv 2 3 12 14
+2_2_eat_drink_1947_start49.5_2_3_12_14.csv 2 3 12 14
+2_2_eat_drink_1947_start52.4_2.csv 2
+2_2_eat_drink_1947_start55.85_2.csv 2
+2_2_kt_0000_start0.0_2_3_12.csv 2 3 12
+2_2_kt_0000_start3.55_3.csv 3
+2_2_kt_0015_start48.0_3.csv 3
+2_2_kt_0015_start51.7_3.csv 3
+2_2_kt_0027_start0.0_2_3_9_12.csv 2 3 9 12
+2_2_kt_0027_start1.65_2_3_9_12.csv 2 3 9 12
+2_2_kt_0027_start4.2_3.csv 3
+2_2_kt_0027_start6.85_2_3_12.csv 2 3 12
+2_2_kt_0027_start8.45_2_3_12.csv 2 3 12
+2_2_kt_0027_start9.9_2_3_9_12.csv 2 3 9 12
+2_2_kt_0027_start12.4_3_9.csv 3 9
+2_2_kt_0027_start13.2_3_9.csv 3 9
+2_2_kt_0027_start17.2_2_9.csv 2 9
+2_2_kt_0027_start19.2_2_9.csv 2 9
+2_2_kt_0027_start21.2_2_3_9_12.csv 2 3 9 12
+2_2_kt_0027_start24.45_2_9.csv 2 9
+2_2_kt_0027_start28.45_2_9.csv 2 9
+2_2_kt_0027_start31.2_2_3_9_12.csv 2 3 9 12
+2_2_kt_0027_start32.05_2_3_5_6_9_12.csv 2 3 5 6 9 12
+2_2_kt_0027_start35.3_5_6.csv 5 6
+2_2_kt_0027_start36.25_5_6.csv 5 6
+2_2_kt_0027_start40.55_3.csv 3
+2_2_kt_0027_start43.35_3.csv 3
+2_2_kt_0027_start46.5_2_3_9_12.csv 2 3 9 12
+2_2_kt_0027_start47.35_2_9.csv 2 9
+2_2_kt_0027_start48.7_2_9.csv 2 9
+2_2_kt_0027_start51.5_2_3_12.csv 2 3 12
+2_2_kt_0027_start53.35_2_3_12.csv 2 3 12
+2_2_kt_0027_start55.4_2_3_12.csv 2 3 12
+2_2_kt_0030_start0.0_0_2_3_9_10_12.csv 0 2 3 9 10 12
+2_2_kt_0030_start1.5_0_2_3_9_10_12.csv 0 2 3 9 10 12
+2_2_kt_0030_start4.3_0_10.csv 0 10
+2_2_kt_0030_start8.3_0_10.csv 0 10
+2_2_kt_0030_start12.3_0_10.csv 0 10
+2_2_kt_0030_start16.3_0_10.csv 0 10
+2_2_kt_0030_start17.95_0_10.csv 0 10
+2_2_kt_0030_start20.35_0_2_10.csv 0 2 10
+2_2_kt_0030_start21.85_0_2_10.csv 0 2 10
+2_2_kt_0030_start24.35_0_2.csv 0 2
+2_2_kt_0030_start27.15_0_2_10.csv 0 2 10
+2_2_kt_0030_start28.35_0_2_10.csv 0 2 10
+2_2_kt_0030_start30.7_0_10.csv 0 10
+2_2_kt_0030_start32.35_0_2_10.csv 0 2 10
+2_2_kt_0030_start35.15_0_2.csv 0 2
+2_2_kt_0030_start36.35_0_2_10.csv 0 2 10
+2_2_kt_0030_start38.1_0_2_3_10_12.csv 0 2 3 10 12
+2_2_kt_0030_start40.05_0_2_3_10_12.csv 0 2 3 10 12
+2_2_kt_0030_start42.7_0_2.csv 0 2
+2_2_kt_0030_start43.65_0_2.csv 0 2
+2_2_kt_0030_start47.65_0_3.csv 0 3
+2_2_kt_0030_start48.6_0_2_3_12.csv 0 2 3 12
+2_2_kt_0030_start50.2_0_2_3_12.csv 0 2 3 12
+2_2_kt_0030_start52.1_0_2_3_12.csv 0 2 3 12
+2_2_kt_0045_start0.0_3_10.csv 3 10
+2_2_kt_0045_start4.05_0_2_3_12.csv 0 2 3 12
+2_2_kt_0045_start7.1_0_2.csv 0 2
+2_2_kt_0045_start8.35_2.csv 2
+2_2_kt_0045_start12.4_0_10.csv 0 10
+2_2_kt_0045_start16.95_2.csv 2
+2_2_kt_0045_start20.95_2.csv 2
+2_2_kt_0045_start25.05_2_3_12.csv 2 3 12
+2_2_kt_0045_start29.5_2_3_12.csv 2 3 12
+2_2_kt_0045_start32.1_2.csv 2
+2_2_kt_0045_start36.1_2.csv 2
+2_2_kt_0045_start40.1_2.csv 2
+2_2_kt_0045_start42.8_2.csv 2
+2_2_kt_0045_start46.8_3.csv 3
+2_2_kt_0045_start48.55_3.csv 3
+2_2_kt_0045_start50.95_2_3_12.csv 2 3 12
+2_2_kt_0045_start51.85_2_3_12.csv 2 3 12
+2_2_kt_0045_start53.35_2_3_12.csv 2 3 12
+2_2_kt_0045_start54.9_2_3_12.csv 2 3 12
+2_2_kt_0048_start0.0_3.csv 3
+2_2_kt_0048_start2.65_3.csv 3
+2_2_kt_0048_start6.05_2_3_12.csv 2 3 12
+2_2_kt_0048_start9.45_3_9.csv 3 9
+2_2_kt_0048_start11.6_2_3_9_12.csv 2 3 9 12
+2_2_kt_0048_start12.65_2_3_9_12.csv 2 3 9 12
+2_2_kt_0048_start13.6_2_3_9_12.csv 2 3 9 12
+2_2_kt_0048_start15.3_2_3_9_12.csv 2 3 9 12
+2_2_kt_0048_start17.2_2_3_9_12.csv 2 3 9 12
+2_2_kt_0048_start18.1_2_3_5_6_9_12.csv 2 3 5 6 9 12
+2_2_kt_0048_start20.7_3_5_6.csv 3 5 6
+2_2_kt_0048_start24.05_3.csv 3
+2_2_kt_0048_start27.6_2_3_9_12.csv 2 3 9 12
+2_2_kt_0048_start28.8_2_3_9_12.csv 2 3 9 12
+2_2_kt_0048_start29.75_2_3_9_12.csv 2 3 9 12
+2_2_kt_0048_start31.1_2_3_9_12.csv 2 3 9 12
+2_2_kt_0048_start33.5_2_9.csv 2 9
+2_2_kt_0048_start35.1_2_3_9_12.csv 2 3 9 12
+2_2_kt_0048_start36.15_2_3_7_8_9_12.csv 2 3 7 8 9 12
+2_2_kt_0048_start39.05_7_8.csv 7 8
+2_2_kt_0048_start43.05_7_8.csv 7 8
+2_2_kt_0048_start44.5_7_8.csv 7 8
+2_2_kt_0048_start48.75_3.csv 3
+2_2_kt_0048_start52.75_3.csv 3
+2_2_kt_0048_start55.35_3.csv 3
+2_2_kt_0100_start1.8_2_3_12.csv 2 3 12
+2_2_kt_0100_start5.45_2.csv 2
+2_2_kt_0100_start9.45_2.csv 2
+2_2_kt_0100_start13.45_2.csv 2
+2_2_kt_0100_start17.45_2.csv 2
+2_2_kt_0100_start21.45_2.csv 2
+2_2_kt_0100_start25.45_2.csv 2
+2_2_kt_0100_start29.45_2.csv 2
+2_2_kt_0100_start30.5_2.csv 2
+2_2_kt_0100_start32.8_2_3_12.csv 2 3 12
+2_2_kt_0100_start33.75_2_3_12.csv 2 3 12
+2_2_kt_0100_start36.35_3.csv 3
+2_2_kt_0100_start39.2_3.csv 3
+2_2_kt_0100_start43.2_2.csv 2
+2_2_kt_0100_start47.2_2.csv 2
+2_2_kt_0100_start51.2_2.csv 2
+2_2_kt_0100_start55.2_2.csv 2
+2_2_kt_0204_start0.0_2.csv 2
+2_2_kt_0204_start0.85_2.csv 2
+2_2_kt_0204_start4.9_3.csv 3
+2_2_kt_0204_start29.55_3.csv 3
+2_2_kt_0204_start33.55_3_9.csv 3 9
+2_2_kt_0204_start34.6_3_9.csv 3 9
+2_2_kt_0204_start38.7_5_6.csv 5 6
+2_2_kt_0204_start43.2_3.csv 3
+2_2_kt_0204_start46.5_3_9.csv 3 9
+2_2_kt_0204_start49.45_3.csv 3
+2_2_kt_0204_start53.2_3.csv 3
+2_2_kt_0204_start55.4_2_3_12.csv 2 3 12
+2_2_kt_0205_start0.0_2.csv 2
+2_2_kt_0205_start4.5_3.csv 3
+2_2_kt_0205_start8.5_3.csv 3
+2_2_kt_0205_start11.15_2_3_9_12.csv 2 3 9 12
+2_2_kt_0205_start12.3_2_3_9_12.csv 2 3 9 12
+2_2_kt_0205_start14.5_2_3_9_12.csv 2 3 9 12
+2_2_kt_0205_start16.45_2_3_9_12.csv 2 3 9 12
+2_2_kt_0205_start17.35_2_3_9_12.csv 2 3 9 12
+2_2_kt_0205_start18.7_2_3_9_12.csv 2 3 9 12
+2_2_kt_0205_start20.45_2_3_9_12.csv 2 3 9 12
+2_2_kt_0205_start22.7_2_3_9_12.csv 2 3 9 12
+2_2_kt_0205_start24.25_2_3_9_12.csv 2 3 9 12
+2_2_kt_0205_start26.7_2_3_9_12.csv 2 3 9 12
+2_2_kt_0205_start28.3_2_9.csv 2 9
+2_2_kt_0205_start30.7_2_9.csv 2 9
+2_2_kt_0205_start32.3_2_9.csv 2 9
+2_2_kt_0205_start34.7_2_9.csv 2 9
+2_2_kt_0205_start36.3_2_9.csv 2 9
+2_2_kt_0205_start38.7_2_9.csv 2 9
+2_2_kt_0205_start40.2_2_9.csv 2 9
+2_2_kt_0205_start42.7_2_3_9_12.csv 2 3 9 12
+2_2_kt_0205_start43.95_2_3_9_12.csv 2 3 9 12
+2_2_kt_0205_start46.45_2_3_9_12.csv 2 3 9 12
+2_2_kt_0205_start47.7_2_3_9_12.csv 2 3 9 12
+2_2_kt_0205_start50.7_2_3_9_12.csv 2 3 9 12
+2_2_kt_0205_start51.7_3_9.csv 3 9
+2_2_kt_0205_start54.7_2_3_9_12.csv 2 3 9 12
+2_2_kt_0230_start0.0_1_3.csv 1 3
+2_2_kt_0230_start2.3_1.csv 1
+2_2_kt_0230_start6.3_1.csv 1
+2_2_kt_0230_start9.65_1.csv 1
+2_2_kt_1152_start0.0_0_1.csv 0 1
+2_2_kt_1152_start3.95_0_1.csv 0 1
+2_2_kt_1152_start7.95_0_1.csv 0 1
+2_2_kt_1152_start11.95_0_1.csv 0 1
+2_2_kt_1152_start15.95_0_1.csv 0 1
+2_2_kt_1152_start19.95_0_1.csv 0 1
+2_2_kt_1152_start23.95_0_1.csv 0 1
+2_2_kt_1152_start27.95_0_1.csv 0 1
+2_2_kt_1152_start31.95_0_1.csv 0 1
+2_2_kt_1152_start33.2_0_1.csv 0 1
+2_2_kt_1152_start34.35_0_1_10.csv 0 1 10
+2_2_kt_1152_start37.8_1_3_9_10.csv 1 3 9 10
+2_2_kt_1152_start39.05_3_9_10.csv 3 9 10
+2_2_kt_1152_start40.7_3_9_10_11.csv 3 9 10 11
+2_2_kt_1152_start42.35_1_3_10_11.csv 1 3 10 11
+2_2_kt_1152_start45.0_1.csv 1
+2_2_kt_1152_start49.0_1.csv 1
+2_2_kt_1152_start53.0_1.csv 1
+2_2_kt_1152_start55.15_1.csv 1
+2_2_kt_1153_start0.0_1_4_13.csv 1 4 13
+2_2_kt_1153_start1.3_4_13.csv 4 13
+2_2_kt_1153_start3.75_4_13.csv 4 13
+2_2_kt_1153_start7.95_1_13.csv 1 13
+2_2_kt_1153_start10.2_1_13_15.csv 1 13 15
+2_2_kt_1153_start11.8_1_13_15.csv 1 13 15
+2_2_kt_1153_start14.2_1_13.csv 1 13
+2_2_kt_1153_start15.95_1_13.csv 1 13
+2_2_kt_1153_start18.2_1_13.csv 1 13
+2_2_kt_1153_start19.95_1_13.csv 1 13
+2_2_kt_1153_start22.2_1_13.csv 1 13
+2_2_kt_1153_start23.95_1_13.csv 1 13
+2_2_kt_1153_start26.2_1_13.csv 1 13
+2_2_kt_1153_start27.95_1_13.csv 1 13
+2_2_kt_1153_start30.2_1_13.csv 1 13
+2_2_kt_1153_start31.95_1_13.csv 1 13
+2_2_kt_1153_start35.95_1.csv 1
+2_2_kt_1153_start39.95_1.csv 1
+2_2_kt_1153_start43.95_1_13.csv 1 13
+2_2_kt_1153_start47.95_1_13.csv 1 13
+2_2_kt_1153_start51.95_1_13.csv 1 13
+2_2_kt_1153_start55.05_1_13.csv 1 13
+2_2_kt_1154_start0.0_1_13.csv 1 13
+2_2_kt_1154_start3.95_1_13.csv 1 13
+2_2_kt_1154_start7.95_1_13.csv 1 13
+2_2_kt_1154_start11.95_1_13.csv 1 13
+2_2_kt_1154_start15.95_1_13.csv 1 13
+2_2_kt_1154_start19.95_1_13.csv 1 13
+2_2_kt_1154_start23.95_1_13.csv 1 13
+2_2_kt_1154_start27.95_1_13.csv 1 13
+2_2_kt_1154_start31.95_1_13.csv 1 13
+2_2_kt_1154_start35.95_1_13.csv 1 13
+2_2_kt_1154_start39.95_1_13.csv 1 13
+2_2_kt_1154_start43.95_1_13.csv 1 13
+2_2_kt_1154_start47.95_1_13.csv 1 13
+2_2_kt_1154_start51.95_1_13.csv 1 13
+2_2_kt_1154_start55.15_1_13.csv 1 13
+2_2_kt_1155_start0.0_1_13.csv 1 13
+2_2_kt_1155_start3.95_1_13.csv 1 13
+2_2_kt_1155_start7.95_1_13.csv 1 13
+2_2_kt_1155_start11.95_1_13.csv 1 13
+2_2_kt_1155_start15.95_1_13.csv 1 13
+2_2_kt_1155_start19.95_1_13.csv 1 13
+2_2_kt_1155_start23.95_1_13.csv 1 13
+2_2_kt_1155_start27.95_1_13.csv 1 13
+2_2_kt_1155_start31.95_1_13.csv 1 13
+2_2_kt_1155_start35.95_1_13.csv 1 13
+2_2_kt_1155_start39.95_1_13.csv 1 13
+2_2_kt_1155_start43.95_1_13.csv 1 13
+2_2_kt_1155_start47.95_1_13.csv 1 13
+2_2_kt_1155_start51.95_1_13.csv 1 13
+2_2_kt_1155_start55.15_1_13.csv 1 13
+2_2_kt_1159_start0.0_1_13.csv 1 13
+2_2_kt_1159_start2.5_1_13.csv 1 13
+2_2_kt_1159_start3.95_1_13.csv 1 13
+2_2_kt_1159_start7.95_1.csv 1
+2_2_kt_1159_start13.05_4_13.csv 4 13
+2_2_kt_1159_start15.7_4_13.csv 4 13
+2_2_kt_1159_start17.05_4_13.csv 4 13
+2_2_kt_1159_start19.7_4_13.csv 4 13
+2_2_kt_1159_start21.05_4_13.csv 4 13
+2_2_kt_1159_start23.7_4_13.csv 4 13
+2_2_kt_1159_start25.05_4_13.csv 4 13
+2_2_kt_1159_start27.7_4_13.csv 4 13
+2_2_kt_1159_start29.05_4_13.csv 4 13
+2_2_kt_1159_start31.7_4_13.csv 4 13
+2_2_kt_1159_start33.05_4_13.csv 4 13
+2_2_kt_1159_start35.7_4_13.csv 4 13
+2_2_kt_1159_start37.05_4_13.csv 4 13
+2_2_kt_1159_start39.7_4_13.csv 4 13
+2_2_kt_1159_start41.05_4_13.csv 4 13
+2_2_kt_1159_start43.7_4_13.csv 4 13
+2_2_kt_1159_start45.05_4_13.csv 4 13
+2_2_kt_1159_start47.7_4_13.csv 4 13
+2_2_kt_1159_start49.05_4_13.csv 4 13
+2_2_kt_1159_start51.7_4_13.csv 4 13
+2_2_kt_1159_start53.05_4_13.csv 4 13
+2_2_kt_1159_start55.7_4_13.csv 4 13
+2_2_kt_1200_start0.0_4_13.csv 4 13
+2_2_kt_1200_start3.95_4_13.csv 4 13
+2_2_kt_1200_start7.95_4_13.csv 4 13
+2_2_kt_1200_start11.95_4_13.csv 4 13
+2_2_kt_1200_start15.95_4_13.csv 4 13
+2_2_kt_1200_start19.95_4_13.csv 4 13
+2_2_kt_1200_start23.95_4_13.csv 4 13
+2_2_kt_1200_start27.95_4_13.csv 4 13
+2_2_kt_1200_start31.95_4_13.csv 4 13
+2_2_kt_1200_start35.95_4_13.csv 4 13
+2_2_kt_1200_start39.95_4_13.csv 4 13
+2_2_kt_1200_start41.15_4_13.csv 4 13
+2_2_kt_1200_start43.95_1_4_13.csv 1 4 13
+2_2_kt_1200_start45.15_1_13.csv 1 13
+2_2_kt_1200_start47.95_1_13.csv 1 13
+2_2_kt_1200_start49.15_1_13.csv 1 13
+2_2_kt_1200_start51.95_1_13.csv 1 13
+2_2_kt_1200_start53.15_1_13.csv 1 13
+2_2_kt_1200_start55.1_1_13.csv 1 13
+2_2_kt_1202_start0.0_1_3_11_12_13.csv 1 3 11 12 13
+2_2_kt_1202_start1.6_3_11_12_13.csv 3 11 12 13
+2_2_kt_1202_start3.7_3_4_10_11_12_13.csv 3 4 10 11 12 13
+2_2_kt_1202_start6.6_4_13.csv 4 13
+2_2_kt_1202_start7.95_4_13.csv 4 13
+2_2_kt_1202_start10.6_4_13.csv 4 13
+2_2_kt_1202_start11.9_4_13.csv 4 13
+2_2_kt_1202_start15.9_1_10_13.csv 1 10 13
+2_2_kt_1202_start16.75_1_10_13.csv 1 10 13
+2_2_kt_1202_start19.9_1_13.csv 1 13
+2_2_kt_1202_start23.9_1_13.csv 1 13
+2_2_kt_1202_start27.9_1_13_14.csv 1 13 14
+2_2_kt_1202_start30.4_1_13_14.csv 1 13 14
+2_2_kt_1202_start31.9_1_13_14.csv 1 13 14
+2_2_kt_1202_start35.9_1.csv 1
+2_2_kt_1202_start39.9_1.csv 1
+2_2_kt_1202_start41.95_1.csv 1
+2_2_kt_1202_start45.5_1_3_11.csv 1 3 11
+2_2_kt_1202_start47.8_2_3_11_12_16.csv 2 3 11 12 16
+2_2_kt_1202_start49.2_2_3_10_12_16.csv 2 3 10 12 16
+2_2_kt_1202_start51.3_2_3_10_12_16.csv 2 3 10 12 16
+2_3_eat_drink_0016_start6.0_2_9.csv 2 9
+2_3_eat_drink_0016_start7.2_2_9.csv 2 9
+2_3_eat_drink_0016_start9.55_2_9.csv 2 9
+2_3_eat_drink_0016_start13.65_3.csv 3
+2_3_eat_drink_0016_start15.4_3.csv 3
+2_3_eat_drink_0016_start19.5_2_17.csv 2 17
+2_3_eat_drink_0016_start23.5_2_17.csv 2 17
+2_3_eat_drink_0016_start27.5_2_17.csv 2 17
+2_3_eat_drink_0016_start31.5_2_17.csv 2 17
+2_3_eat_drink_0016_start34.4_2_17.csv 2 17
+2_3_eat_drink_0016_start37.9_2_3_12_17.csv 2 3 12 17
+2_3_eat_drink_0016_start42.55_2_3_12.csv 2 3 12
+2_3_eat_drink_0016_start46.0_3.csv 3
+2_3_eat_drink_0016_start48.6_2_3_12_14.csv 2 3 12 14
+2_3_eat_drink_0016_start49.6_2_3_12_14.csv 2 3 12 14
+2_3_eat_drink_0016_start50.8_2_3_12_14.csv 2 3 12 14
+2_3_eat_drink_0016_start54.75_3.csv 3
+2_3_eat_drink_0016_start55.85_3.csv 3
+2_3_eat_drink_1211_start48.05_2_3_10_12.csv 2 3 10 12
+2_3_eat_drink_1211_start51.0_2_14.csv 2 14
+2_3_eat_drink_1211_start51.9_2_14.csv 2 14
+2_3_eat_drink_1211_start55.0_2_14.csv 2 14
+2_3_eat_drink_1211_start55.9_2_14.csv 2 14
+2_3_eat_drink_1216_start0.0_2_3_12_14.csv 2 3 12 14
+2_3_eat_drink_1216_start1.65_2_14.csv 2 14
+2_3_eat_drink_1216_start5.65_2_14.csv 2 14
+2_3_eat_drink_1216_start9.65_2_14.csv 2 14
+2_3_eat_drink_1216_start13.65_2_14.csv 2 14
+2_3_eat_drink_1216_start17.65_2_14.csv 2 14
+2_3_eat_drink_1216_start21.65_2_14.csv 2 14
+2_3_eat_drink_1216_start25.65_2_14.csv 2 14
+2_3_eat_drink_1216_start29.65_2_14.csv 2 14
+2_3_eat_drink_1216_start33.65_2_14.csv 2 14
+2_3_eat_drink_1216_start37.65_2_14.csv 2 14
+2_3_eat_drink_1216_start41.65_2_14.csv 2 14
+2_3_eat_drink_1216_start45.65_2_14.csv 2 14
+2_3_eat_drink_1216_start47.35_2_14.csv 2 14
+2_3_eat_drink_1216_start48.8_2_3_12_14.csv 2 3 12 14
+2_3_eat_drink_1216_start51.35_3_14.csv 3 14
+2_3_eat_drink_1216_start54.25_3.csv 3
+2_3_eat_drink_1319_start0.0_4.csv 4
+2_3_eat_drink_1319_start3.95_4.csv 4
+2_3_eat_drink_1319_start7.5_2_3_4_12.csv 2 3 4 12
+2_3_eat_drink_1319_start11.05_2.csv 2
+2_3_eat_drink_1319_start14.7_2_3_12.csv 2 3 12
+2_3_eat_drink_1606_start0.0_2_17.csv 2 17
+2_3_eat_drink_1606_start3.95_2_17.csv 2 17
+2_3_eat_drink_1606_start7.95_2_17.csv 2 17
+2_3_eat_drink_1606_start11.95_2_17.csv 2 17
+2_3_eat_drink_1606_start15.95_2_17.csv 2 17
+2_3_eat_drink_1606_start19.95_2_17.csv 2 17
+2_3_eat_drink_1606_start22.4_2_17.csv 2 17
+2_3_eat_drink_1606_start23.95_2_3_12_17.csv 2 3 12 17
+2_3_eat_drink_1606_start25.2_2_3_12_17.csv 2 3 12 17
+2_3_eat_drink_1606_start27.95_2_17.csv 2 17
+2_3_eat_drink_1606_start31.95_2_17.csv 2 17
+2_3_eat_drink_1606_start35.95_2_17.csv 2 17
+2_3_eat_drink_1606_start39.95_2_17.csv 2 17
+2_3_eat_drink_1606_start43.95_2_17.csv 2 17
+2_3_eat_drink_1606_start45.5_2_17.csv 2 17
+2_3_eat_drink_1606_start48.25_2_3_12_17.csv 2 3 12 17
+2_3_eat_drink_1606_start49.65_2_3_12_17.csv 2 3 12 17
+2_3_eat_drink_1606_start50.5_2_17.csv 2 17
+2_3_eat_drink_1606_start54.5_2.csv 2
+2_3_eat_drink_1606_start55.85_2.csv 2
+2_3_eat_drink_1930_start22.45_2_3_12.csv 2 3 12
+2_3_eat_drink_1930_start26.0_2_17.csv 2 17
+2_3_eat_drink_1930_start30.0_2_17.csv 2 17
+2_3_eat_drink_1930_start34.0_2_17.csv 2 17
+2_3_eat_drink_1930_start38.0_2_17.csv 2 17
+2_3_eat_drink_1930_start42.0_2_17.csv 2 17
+2_3_eat_drink_1930_start43.75_2_17.csv 2 17
+2_3_eat_drink_1930_start46.95_2_3_12_17.csv 2 3 12 17
+2_3_eat_drink_1930_start48.55_2_3_12_14.csv 2 3 12 14
+2_3_eat_drink_1930_start49.6_2_3_12_14.csv 2 3 12 14
+2_3_eat_drink_1930_start51.8_2_14.csv 2 14
+2_3_eat_drink_1930_start53.3_2_14.csv 2 14
+2_3_eat_drink_1930_start55.8_2_3_12_14.csv 2 3 12 14
+2_3_eat_drink_2356_start0.0_2_3_9_12.csv 2 3 9 12
+2_3_eat_drink_2356_start1.7_3.csv 3
+2_3_eat_drink_2356_start7.35_2_3_12.csv 2 3 12
+2_3_eat_drink_2356_start10.25_2.csv 2
+2_3_eat_drink_2356_start11.4_2.csv 2
+2_3_eat_drink_2356_start14.15_2_3_12.csv 2 3 12
+2_3_eat_drink_2356_start24.8_3.csv 3
+2_3_eat_drink_2356_start25.65_3.csv 3
+2_3_eat_drink_2356_start29.65_1.csv 1
+2_3_eat_drink_2356_start32.15_1.csv 1
+2_3_eat_drink_2356_start35.55_1_2_3_12_17.csv 1 2 3 12 17
+2_3_eat_drink_2356_start38.8_2_17.csv 2 17
+2_3_eat_drink_2356_start42.8_2_17.csv 2 17
+2_3_eat_drink_2356_start46.8_2_17.csv 2 17
+2_3_eat_drink_2356_start50.8_2_17.csv 2 17
+2_3_eat_drink_2356_start54.8_2_17.csv 2 17
+2_3_eat_drink_2356_start55.85_2_17.csv 2 17
+2_4_dixia_1936_start0.0_3_9.csv 3 9
+2_4_dixia_1936_start0.85_3_9.csv 3 9
+2_4_dixia_1936_start3.95_3_9.csv 3 9
+2_4_dixia_1936_start4.85_3_9.csv 3 9
+2_4_dixia_1936_start7.95_3_9.csv 3 9
+2_4_dixia_1936_start8.85_3_9.csv 3 9
+2_4_dixia_1936_start11.95_3_9.csv 3 9
+2_4_dixia_1936_start12.85_3_9.csv 3 9
+2_4_dixia_1936_start15.95_3_9.csv 3 9
+2_4_dixia_1936_start17.9_3.csv 3
+2_4_dixia_1936_start21.9_2_17.csv 2 17
+2_4_dixia_1936_start25.9_2_17.csv 2 17
+2_4_dixia_1936_start28.65_2_17.csv 2 17
+2_4_dixia_1936_start29.9_2_17.csv 2 17
+2_4_dixia_1936_start31.8_2_17.csv 2 17
+2_4_dixia_1936_start35.8_3.csv 3
+2_4_dixia_1936_start39.8_0_3_10.csv 0 3 10
+2_4_dixia_1936_start40.85_0_3_10.csv 0 3 10
+2_4_dixia_1936_start42.1_0_2_3_10_12.csv 0 2 3 10 12
+2_4_dixia_1936_start43.75_0_2_3_12.csv 0 2 3 12
+2_4_dixia_1936_start46.0_0_2_3_12.csv 0 2 3 12
+2_4_dixia_1936_start47.55_0_2_3_12.csv 0 2 3 12
+2_4_dixia_1936_start50.1_0_3.csv 0 3
+2_4_dixia_1936_start51.05_0_3.csv 0 3
+2_4_dixia_1936_start54.1_0_2_3_12.csv 0 2 3 12
+2_4_dixia_1936_start55.05_0_2.csv 0 2
+2_4_dixia_1936_start56.0_0_2.csv 0 2
+2_4_dixia_2019_start0.0_2.csv 2
+2_4_dixia_2019_start1.25_2.csv 2
+2_4_dixia_2019_start5.25_3.csv 3
+2_4_dixia_2019_start8.2_3.csv 3
+2_4_dixia_2019_start12.2_2_17.csv 2 17
+2_4_dixia_2019_start16.2_2_17.csv 2 17
+2_4_dixia_2019_start20.2_2_17.csv 2 17
+2_4_dixia_2019_start24.2_2_17.csv 2 17
+2_4_dixia_2019_start25.6_2_17.csv 2 17
+2_4_dixia_2019_start29.6_3.csv 3
+2_4_eat_drink_1214_start11.55_2_3_12.csv 2 3 12
+2_4_eat_drink_1214_start14.25_2_14.csv 2 14
+2_4_eat_drink_1214_start15.65_2_14.csv 2 14
+2_4_eat_drink_1214_start18.25_2_14.csv 2 14
+2_4_eat_drink_1214_start19.65_2_14.csv 2 14
+2_4_eat_drink_1214_start22.25_2_14.csv 2 14
+2_4_eat_drink_1214_start23.65_2_14.csv 2 14
+2_4_eat_drink_1214_start26.25_2_14.csv 2 14
+2_4_eat_drink_1214_start27.65_2_14.csv 2 14
+2_4_eat_drink_1214_start30.25_2_14.csv 2 14
+2_4_eat_drink_1214_start31.65_2_14.csv 2 14
+2_4_eat_drink_1214_start34.25_2_14.csv 2 14
+2_4_eat_drink_1214_start35.65_2_14.csv 2 14
+2_4_eat_drink_1214_start38.25_2_14.csv 2 14
+2_4_eat_drink_1214_start39.65_2_14.csv 2 14
+2_4_eat_drink_1214_start42.25_2_14.csv 2 14
+2_4_eat_drink_1214_start43.65_2_14.csv 2 14
+2_4_eat_drink_1214_start46.25_2_14.csv 2 14
+2_4_eat_drink_1214_start47.65_2_14.csv 2 14
+2_4_eat_drink_1214_start50.25_2_14.csv 2 14
+2_4_eat_drink_1214_start51.65_2_14.csv 2 14
+2_4_eat_drink_1214_start54.25_2_14.csv 2 14
+2_4_eat_drink_1214_start55.95_2_3_12_14.csv 2 3 12 14
+2_5_eat_drink_1614_start0.0_2_17.csv 2 17
+2_5_eat_drink_1614_start3.95_2_17.csv 2 17
+2_5_eat_drink_1614_start7.95_2_17.csv 2 17
+2_5_eat_drink_1614_start11.95_2_17.csv 2 17
+2_5_eat_drink_1614_start15.95_2_17.csv 2 17
+2_5_eat_drink_1614_start20.0_2_17.csv 2 17
+2_5_eat_drink_1614_start24.0_2.csv 2
+2_5_eat_drink_1614_start26.15_2_9.csv 2 9
+2_5_eat_drink_1614_start29.8_2_3_12_14.csv 2 3 12 14
+2_5_eat_drink_1614_start31.95_2_3_12_14.csv 2 3 12 14
+2_5_eat_drink_1614_start33.5_2_14.csv 2 14
+2_5_eat_drink_1614_start36.7_2_3_12.csv 2 3 12
+2_5_eat_drink_1614_start38.6_2_3_12.csv 2 3 12
+2_5_eat_drink_1614_start40.5_2_3_12_17.csv 2 3 12 17
+2_5_eat_drink_1614_start43.0_2_17.csv 2 17
+2_5_eat_drink_1614_start46.4_2_17.csv 2 17
+2_5_eat_drink_1614_start51.0_2.csv 2
+2_5_eat_drink_1614_start55.0_2_17.csv 2 17
+2_5_eat_drink_1614_start55.95_2_17.csv 2 17
+2_5_eat_drink_1745_start0.0_2_14.csv 2 14
+2_5_eat_drink_1745_start3.95_2_14.csv 2 14
+2_5_eat_drink_1745_start7.95_2.csv 2
+2_5_eat_drink_1745_start11.95_2_14.csv 2 14
+2_5_eat_drink_1745_start14.5_2_14.csv 2 14
+2_5_eat_drink_1745_start15.95_2_14.csv 2 14
+2_5_eat_drink_1745_start18.5_2_14.csv 2 14
+2_5_eat_drink_1745_start19.95_2_14.csv 2 14
+2_5_eat_drink_1745_start22.5_2_14.csv 2 14
+2_5_eat_drink_1745_start23.95_2_14.csv 2 14
+2_5_eat_drink_1745_start26.5_2_14.csv 2 14
+2_5_eat_drink_1745_start27.95_2_14.csv 2 14
+2_5_eat_drink_1745_start30.5_2_14.csv 2 14
+2_5_eat_drink_1745_start31.95_2_14.csv 2 14
+2_5_eat_drink_1745_start34.5_2_14.csv 2 14
+2_5_eat_drink_1745_start35.95_2_14.csv 2 14
+2_5_eat_drink_1745_start38.5_2_14.csv 2 14
+2_5_eat_drink_1745_start39.95_2_14.csv 2 14
+2_5_eat_drink_1745_start42.5_2_14.csv 2 14
+2_5_eat_drink_1745_start43.95_2_14.csv 2 14
+2_5_eat_drink_1745_start46.5_2_14.csv 2 14
+2_5_eat_drink_1745_start47.95_2_14.csv 2 14
+2_5_eat_drink_1745_start50.5_2_14.csv 2 14
+2_5_eat_drink_1745_start51.95_2_14.csv 2 14
+2_5_eat_drink_1745_start54.5_2_14.csv 2 14
+2_5_eat_drink_1745_start55.9_2_14.csv 2 14
+2_5_eat_drink_2017_start0.0_2_3_12.csv 2 3 12
+2_5_eat_drink_2017_start1.6_2_17.csv 2 17
+2_5_eat_drink_2017_start4.5_2_17.csv 2 17
+2_5_eat_drink_2017_start5.6_2_17.csv 2 17
+2_5_eat_drink_2017_start8.5_2_17.csv 2 17
+2_5_eat_drink_2017_start9.6_2_17.csv 2 17
+2_5_eat_drink_2017_start11.45_2_17.csv 2 17
+2_5_eat_drink_2017_start13.6_2_17.csv 2 17
+2_5_eat_drink_2017_start16.0_2_17.csv 2 17
+2_5_eat_drink_2017_start17.6_2_17.csv 2 17
+2_5_eat_drink_2017_start18.75_2_17.csv 2 17
+2_5_eat_drink_2017_start22.75_3.csv 3
+2_5_eat_drink_2017_start24.05_3.csv 3
+2_5_eat_drink_2017_start27.2_2_3_12_17.csv 2 3 12 17
+2_5_eat_drink_2017_start29.85_2_3_12_17.csv 2 3 12 17
