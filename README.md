@@ -34,3 +34,5 @@ then use the command below
 conda env list
 conda activate open-mmlab
 ``` 
+
+# Where to find the data
